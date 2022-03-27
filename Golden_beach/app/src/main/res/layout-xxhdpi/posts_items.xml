@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+
+    >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/white_and_black"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                style="@style/posts_items_header_text_view"
+                android:id="@+id/items_name_text_view"
+                android:text="asdfasdf"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@drawable/shape_of_posts"
+                android:id="@+id/posts_items_details_linear_layout"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        style="@style/posts_items_text_views"
+                        android:text="@string/post_session"
+                        android:id="@+id/items_session_text_view"
+
+
+                        />
+                    <TextView
+                        style="@style/posts_items_text_views"
+                        android:text="@string/post_year"
+                        android:id="@+id/items_year_text_view"
+
+                        />
+
+                    <TextView
+                        style="@style/posts_items_text_views"
+                        android:id="@+id/items_name_of_section_text_view"
+                        android:text="@string/post_section"
+
+                        />
+                    <TextView
+                        style="@style/posts_items_text_views"
+                        android:id="@+id/items_name_of_category_text_view"
+                        android:text="@string/post_category"
+                        />
+
+
+                    <ImageView
+                        style="@style/posts_items_new_image_view"
+                        android:id="@+id/posts_items_icon_image_view"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/items_image_image_view"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/video_image_png1"
+                    android:background="@drawable/shape_of_all_image_view"
+
+                    >
+
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <Button
+                style="@style/posts_items_see_more_details_button"
+                android:id="@+id/items_see_more_details_button"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/items_id_text_view"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/items_brand_of_section_text_view"
+                android:visibility="gone"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/items_name_of_image_text_view"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/items_story_text_view"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/items_trailer_uri_text_view"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

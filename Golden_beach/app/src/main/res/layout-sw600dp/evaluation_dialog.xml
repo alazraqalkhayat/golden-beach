@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.Evaluation_dialog"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        style="@style/evaluation_all_activity_header_text_view"
+        android:id="@+id/evaluation_dialog_title_text_view"
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/evaluation_dialog_title_text_view"
+        android:padding="10dp"
+        >
+
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/light_gray2"
+            android:id="@+id/evaluation_dialog_rating_bar"
+            android:layout_centerHorizontal="true"
+            android:secondaryProgressTint="@color/light_golden"
+            android:elevation="5dp"
+            android:rating="1.5"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/evaluation_dialog_rating_bar"
+            android:orientation="horizontal"
+            android:id="@+id/evaluation_dialog_note_linear"
+            android:layout_marginTop="10dp"
+            >
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/evaluation_dialog_note_linear"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/evaluation_dialog_buttons_linear"
+            >
+
+            <Button
+                style="@style/about_all_activity_buttons"
+                android:text="@string/about_all_activity_evaluate_button"
+                android:id="@+id/evaluation_dialog_evaluate_button"
+                android:layout_centerHorizontal="true"
+                android:drawableRight="@drawable/star_icon_golden"                />
+
+            <Button
+                style="@style/about_all_activity_buttons"
+                android:text="@string/about_all_activity_cancel_button"
+                android:id="@+id/evaluation_dialog_cancle_button"
+                android:drawableRight="@drawable/cancel_icon"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

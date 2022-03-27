@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.Check_administrator_dialog"
+>
+
+    <TextView
+        style="@style/evaluation_all_activity_header_text_view"
+        android:id="@+id/check_administrator_title_text_view"
+        android:text="CHECK ADMINISTRATOR"
+
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check_administrator_title_text_view"
+        android:padding="10dp"
+
+        >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/check_administrator_activity_password_edit_text"
+        android:background="@drawable/shape_of_contact_us_edit_text"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/dark_blue"
+        android:gravity="center"
+    />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/check_administrator_activity_password_edit_text"
+
+        >
+    <Button
+        style="@style/about_all_activity_buttons"
+        android:id="@+id/check_administrator_activity_check_button"
+        android:text="@string/check"
+    />
+
+    <Button
+        style="@style/about_all_activity_buttons"
+        android:id="@+id/check_administrator_activity_cancel_button"
+        android:text="@string/about_all_activity_cancel_button"
+
+        />
+    </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

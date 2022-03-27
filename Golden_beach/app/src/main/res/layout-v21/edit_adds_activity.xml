@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Edit_adds_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sign_up_activity_user_image"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    style="@style/new_add_fragment_image_view"
+                    android:id="@+id/edit_adds_activity_add_image_view"
+                    android:visibility="gone"
+
+                    />
+
+                <CheckBox
+                    style="@style/edit_posts_and_adds_check_box"
+                    android:id="@+id/edit_adds_activity_check_box"
+                    android:layout_below="@id/edit_adds_activity_add_image_view"
+
+                />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/edit_adds_activity_check_box"
+                    android:layout_marginTop="10dp"
+
+                    >
+
+                    <!--edit texts layout-v21-->
+
+                    <LinearLayout
+                        style="@style/add_new_post_linear_layout_of_edit_text"
+                        >
+                        <TextView
+                            style="@style/add_new_post_text_views"
+                            android:text="@string/edit_adds_activity_owner_name_text_view"
+
+                            />
+
+                        <EditText
+                            style="@style/add_new_post_edit_texts"
+                            android:layout_weight="1"
+                            android:id="@+id/edit_adds_activity_name_of_owner_edit_text"
+                            android:inputType="text"
+                            android:imeOptions="actionNext"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/add_new_post_linear_layout_of_edit_text"
+
+                        >
+                        <TextView
+                            style="@style/add_new_post_text_views"
+                            android:text="@string/edit_adds_activity_description_text_view"
+                        />
+
+                        <EditText
+                            style="@style/add_new_post_edit_texts"
+                            android:id="@+id/edit_adds_activity_description_edit_text"
+                            android:inputType="text"
+                            android:imeOptions="actionDone"
+
+                            />
+
+                    </LinearLayout>
+
+                    <Button
+                        style="@style/add_new_post_upload_button"
+                        android:id="@+id/edit_adds_activity_update_button"
+                        android:text="@string/edit_adds_activity_update_text_view"
+
+                        />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

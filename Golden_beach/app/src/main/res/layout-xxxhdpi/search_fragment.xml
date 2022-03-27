@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.search.Search_fragment">
+
+
+
+    <TextView
+
+        style="@style/all_list_activity_header_text_view"
+        android:text="@string/search_fragment_search_by_title"
+        android:background="@color/white"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:id="@+id/search_fragment_search_by_text_view"
+        android:visibility="gone"
+
+        />
+
+    <TextView
+        style="@style/all_list_activity_header_text_view"
+        android:id="@+id/search_fragment_search_method_text_view"
+        android:text="@string/search_fragment_search_by_title"
+        android:background="@color/light_golden"
+        android:layout_toEndOf="@id/search_fragment_search_by_text_view"
+        android:layout_marginStart="10dp"
+        android:visibility="gone"
+
+        />
+
+    <androidx.cardview.widget.CardView
+        style="@style/suggestions_and_complainants_card_views"
+        android:id="@+id/search_fragment_card_view"
+        android:layout_below="@id/search_fragment_search_method_text_view"
+        android:backgroundTint="@color/login_scroll_color"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+
+
+
+            <EditText
+                style="@style/add_new_post_edit_texts"
+                android:id="@+id/search_fragment_search_box_edit_text"
+                android:inputType="text"
+                />
+
+            <RatingBar
+                android:id="@+id/search_fragment_rating_bar"
+                style="@style/about_all_activity_rating_bar"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                />
+
+            <CheckBox
+                style="@style/edit_posts_and_adds_check_box"
+                android:id="@+id/search_fragment_check_box"
+                android:text="@string/search_fragment_more_details_check_box"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/search_fragment_spinners_linear_layout"
+                android:visibility="gone"
+                >
+
+                <LinearLayout
+                    style="@style/add_new_post_linear_layout_of_spinners_text_views"
+                    >
+                    <TextView
+                        style="@style/add_new_post_spinners_text_views"
+                        android:text="@string/add_new_post_activity_section_text_view"
+                        />
+
+                    <TextView
+                        style="@style/add_new_post_spinners_text_views"
+                        android:text="@string/add_new_post_activity_brand_of_section_text_view"
+                        />
+
+                    <TextView
+                        style="@style/add_new_post_spinners_text_views"
+                        android:text="@string/add_new_post_activity_category_view"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/add_new_post_linear_layout_of_spinners"
+
+                    >
+                    <Spinner
+                        style="@style/add_new_post_spinners"
+                        android:id="@+id/search_fragment_section_spinner"
+                        />
+
+                    <Spinner
+                        style="@style/add_new_post_spinners"
+                        android:id="@+id/search_fragment_brand_of_section_spinner"
+                        />
+
+                    <Spinner
+                        style="@style/add_new_post_spinners"
+                        android:id="@+id/search_fragment_category_spinner"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                style="@style/add_new_post_upload_button"
+                android:id="@+id/search_fragment_search_button"
+                android:text="@string/search_fragment_search_button"
+                android:drawableEnd="@drawable/search_icon_golden"
+
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        style="@style/add_new_post_back_image_view"
+        android:id="@+id/search_fragment_back_image_view"
+        android:layout_below="@id/search_fragment_card_view"
+        android:layout_marginStart="5dp"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:spanCount="2"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        android:id="@+id/search_recycle_view"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/search_fragment_back_image_view"
+        android:visibility="gone"
+        />
+
+    <ProgressBar
+        style="@style/all_list_activity_load_more_progress_bar"
+        android:id="@+id/search_fragment_load_more_progress_bar"
+        android:layout_below="@id/search_recycle_view"
+
+
+        />
+
+    <ImageView
+        style="@style/all_list_activity_reload_image_view"
+        android:id="@+id/search_fragment_reload_image_view"
+        android:layout_below="@id/search_fragment_load_more_progress_bar"
+        android:layout_centerHorizontal="true"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/search_fragment_fab"
+        style="@style/fab"
+        android:src="@drawable/search_icon_golden"
+        android:layout_gravity="start|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        />
+</RelativeLayout>

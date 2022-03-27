@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.All_list_activity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_golden"
+        android:id="@+id/all_list_activity_app_bar_id"
+
+        >
+
+
+
+        <!--android:layout_height="?attr/actionBarSize"-->
+
+        <androidx.appcompat.widget.Toolbar
+            style="@style/tool_bar"
+            android:padding="0dp"
+            android:id="@+id/all_list_activity_tool_bar_id"
+        >
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/all_list_activity_swipe_refresh_layout"
+        android:layout_below="@id/all_list_activity_app_bar_id"
+
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+        >
+    <TextView
+        style="@style/all_list_activity_header_text_view"
+        android:id="@+id/movies_list_activity_movie_category_text_view"
+
+        />
+
+
+    <Spinner
+        style="@style/all_list_activity_spinner"
+        android:id="@+id/movies_list_activity_movie_category_spinner"
+        android:layout_below="@id/movies_list_activity_movie_category_text_view"
+
+        />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/dark_blue"
+                android:layout_marginTop="5dp"
+                android:id="@+id/all_list_activity_spinner_line_view"
+
+                />
+
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/all_list_activity_swipe_refresh_layout"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+            >
+    <LinearLayout
+        style="@style/zontoba_linear_layout"
+        android:id="@+id/movies_list_activity_modern_linear_layout"
+
+        >
+
+        <TextView
+            style="@style/zontoba_text_view"
+            android:id="@+id/movies_list_activity_modern_text_view"
+        />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:id="@+id/all_list_recycle_view2"
+        android:layout_marginTop="20dp"
+        android:nestedScrollingEnabled="false"
+
+        />
+    <LinearLayout
+        style="@style/zontoba_linear_layout"
+        android:id="@+id/movies_list_activity_other_linear_layout"
+
+        >
+
+        <TextView
+            style="@style/zontoba_text_view"
+            android:id="@+id/movies_list_activity_other_text_view"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:spanCount="3"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+
+        android:id="@+id/all_list_recycle_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:nestedScrollingEnabled="false"
+
+    />
+
+                <ProgressBar
+                    style="@style/all_list_activity_load_more_progress_bar"
+                    android:id="@+id/all_list_activity_load_more_progress_bar"
+                    />
+
+
+                <ImageView
+                    style="@style/all_list_activity_reload_image_view"
+                    android:id="@+id/all_list_activity_reload_image_view"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

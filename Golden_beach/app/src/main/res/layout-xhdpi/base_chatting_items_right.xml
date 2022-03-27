@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    >
+
+
+    <TextView
+        style="@style/base_chatting_items_right_text_view"
+        android:id="@+id/base_chatting_items_show_message_text_view"
+        android:text="asdfd"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.Signup_activity"
+    style="@style/light_golden_gray"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:id="@+id/sign_up_activity_linear_layout"
+        >
+
+    </LinearLayout>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up_activity_linear_layout"
+        android:background="@drawable/shape_of_login_and_signup"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/sign_up_activity_user_image"
+                style="@style/sign_up_activity_user_image_view"
+
+                />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                style="@style/sign_up_activity_camera_icon_image_view"
+                android:id="@+id/sign_up_activity_chose_image"
+                android:layout_toEndOf="@id/sign_up_activity_user_image"
+
+
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/login_activity_linear_layout"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/sign_up_activity_user_image"
+
+                >
+
+
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/login_and_signup_text_input_layout"
+                    app:startIconDrawable="@drawable/person_icon_golden"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/login_and_signup_activities_edit_texts"
+                        android:id="@+id/sign_up_activity_full_name_edit_text"
+                        android:hint="@string/signup_activity_full_name_hint"
+                        android:inputType="text"
+                        android:background="@drawable/shape_of_login_and_sign_up_edit_texts"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/login_and_signup_text_input_layout"
+                    app:startIconDrawable="@drawable/email_icon_golden"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/login_and_signup_activities_edit_texts"
+                        android:id="@+id/sign_up_activity_email_edit_text"
+                        android:hint="@string/signup_activity_email_hint"
+                        android:inputType="text"
+                        android:background="@drawable/shape_of_login_and_sign_up_edit_texts"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/login_and_signup_text_input_layout"
+                    app:startIconDrawable="@drawable/person_icon_golden"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/login_and_signup_activities_edit_texts"
+                        android:id="@+id/sign_up_activity_user_name_edit_text"
+                        android:hint="@string/signup_activity_user_name_hint"
+                        android:inputType="text"
+                        android:background="@drawable/shape_of_login_and_sign_up_edit_texts"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/login_and_signup_text_input_layout"
+                    app:startIconDrawable="@drawable/lock_icon"
+                    app:passwordToggleEnabled="true"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/sign_up_activity_password_edit_text"
+                        android:hint="@string/signup_activity_password_hint"
+                        style="@style/login_and_signup_activities_edit_texts"
+                        android:background="@drawable/shape_of_login_and_sign_up_edit_texts"
+                        android:inputType="textPassword" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/login_and_signup_text_input_layout"
+                    app:startIconDrawable="@drawable/lock_icon"
+                    app:passwordToggleEnabled="true"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/sign_up_activity_confirm_password_edit_text"
+                        android:hint="@string/signup_activity_confirm_password_hint"
+                        style="@style/login_and_signup_activities_edit_texts"
+                        android:background="@drawable/shape_of_login_and_sign_up_edit_texts"
+                        android:inputType="textPassword" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <Button
+                    style="@style/login_and_signup_activities_buttons"
+                    android:layout_below="@id/login_activity_linear_layout"
+                    android:text="@string/signup_activity_signup_button"
+                    android:id="@+id/sign_up_activity_sign_up_button"
+                    android:layout_marginBottom="0dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        style="@style/login_and_signup_do_you_have_an_account_text_view"
+                        android:text="@string/signup_activity_message_text_view"
+
+                        />
+
+                    <TextView
+                        style="@style/login_and_signup_create_and_login_text_views"
+                        android:text="@string/signup_activity_login_text_view"
+                        android:id="@+id/sign_up_activity_login_text_view"
+                        />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.Edit_posts_activity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            style="@style/add_new_post_back_image_view"
+            android:id="@+id/edit_post_activity_back_image_view"
+
+            />
+        <ImageView
+            style="@style/add_new_post_back_image_view"
+            android:id="@+id/edit_post_activity_home_image_view"
+            android:src="@drawable/home_icon_golden"
+
+            />
+        <TextView
+            android:text="@string/edit_post_activity_header_text_view"
+            style="@style/add_new_post_header_text_view"
+
+            />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                style="@style/add_new_post_all_image_view"
+                android:id="@+id/edit_post_activity_post_image_view"
+                android:visibility="gone"
+
+                />
+
+
+            <CheckBox
+                style="@style/edit_posts_and_adds_check_box"
+                android:layout_below="@id/edit_post_activity_post_image_view"
+                android:id="@+id/edit_posts_activity_check_box"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/edit_posts_activity_check_box"
+                android:layout_marginTop="10dp"
+                >
+                <!--spinners layouts-->
+
+                <LinearLayout
+                    style="@style/add_new_post_linear_layout_of_spinners_text_views"
+                    >
+                    <TextView
+                        style="@style/add_new_post_spinners_text_views"
+                        android:text="@string/add_new_post_activity_section_text_view"
+                        />
+
+                    <TextView
+                        style="@style/add_new_post_spinners_text_views"
+                        android:text="@string/add_new_post_activity_brand_of_section_text_view"
+                        />
+
+                    <TextView
+                        style="@style/add_new_post_spinners_text_views"
+                        android:text="@string/add_new_post_activity_category_view"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/add_new_post_linear_layout_of_spinners"
+                    >
+                    <Spinner
+                        style="@style/add_new_post_spinners"
+                        android:id="@+id/edit_posts_activity_section_spinner"
+                        />
+
+                    <Spinner
+                        style="@style/add_new_post_spinners"
+                        android:id="@+id/edit_posts_activity_brand_of_section_spinner"
+                        />
+
+                    <Spinner
+                        style="@style/add_new_post_spinners"
+                        android:id="@+id/edit_posts_activity_category_spinner"
+                        />
+
+                </LinearLayout>
+
+                <!--edit texts layout-v21-->
+
+                <LinearLayout
+                    style="@style/add_new_post_linear_layout_of_edit_text"
+                    >
+                    <TextView
+                        style="@style/add_new_post_text_views"
+                        android:text="@string/add_new_post_activity_name_text_view"
+
+
+                        />
+
+                    <EditText
+                        style="@style/add_new_post_edit_texts"
+                        android:id="@+id/edit_posts_activity_name_edit_text"
+                        android:imeOptions="actionNext"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/add_new_post_linear_layout_of_edit_text"
+
+                    >
+                    <TextView
+                        style="@style/add_new_post_text_views"
+                        android:text="@string/add_new_post_activity_story_text_view"
+                        />
+
+                    <EditText
+                        style="@style/add_new_post_edit_texts"
+                        android:id="@+id/edit_posts_activity_story_edit_text"
+                        android:inputType="text"
+                        android:imeOptions="actionNext"
+
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/add_new_post_linear_layout_of_edit_text"
+
+                    >
+                    <TextView
+                        style="@style/add_new_post_text_views"
+                        android:text="@string/add_new_post_activity_trailer_text_view"
+                        />
+
+                    <EditText
+                        style="@style/add_new_post_edit_texts"
+                        android:layout_weight="1"
+                        android:id="@+id/edit_posts_activity_trailer_edit_text"
+                        android:inputType="text"
+                        android:imeOptions="actionNext"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/add_new_post_linear_layout_of_edit_text"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="5dp"
+
+                        >
+                        <TextView
+                            style="@style/add_new_post_text_views"
+                            android:text="@string/add_new_post_activity_year_text_view"
+                            />
+
+                        <EditText
+                            style="@style/add_new_post_edit_texts"
+                            android:layout_weight="1"
+                            android:id="@+id/edit_posts_activity_year_edit_text"
+                            android:inputType="number"
+                            android:imeOptions="actionNext"
+
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="5dp"
+                        >
+                        <TextView
+                            style="@style/add_new_post_text_views"
+                            android:text="@string/add_new_post_activity_session_text_view"
+                            />
+
+                        <EditText
+                            style="@style/add_new_post_edit_texts"
+                            android:layout_weight="1"
+                            android:id="@+id/edit_posts_activity_session_edit_text"
+                            android:inputType="number"
+                            android:imeOptions="actionDone"
+
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+                <Button
+                    style="@style/add_new_post_upload_button"
+                    android:id="@+id/add_new_post_add_button"
+                    android:text="@string/edit_post_activity_upload_button"
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

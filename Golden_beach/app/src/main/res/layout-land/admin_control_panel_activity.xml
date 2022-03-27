@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activities.Admin_control_panel_activity"
+>
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_of_contact_us_edit_text"
+        android:id="@+id/adds_management_app_bar_layout"
+        >
+        <androidx.appcompat.widget.Toolbar
+            style="@style/tool_bar"
+            android:padding="0dp"
+            android:id="@+id/admin_control_panel_activity_tool_bar_id"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            style="@style/admin_control_panel_basic_card_view"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_card_view_of_image_views"
+                    >
+                    <ImageView
+                        style="@style/admin_control_panel_image_views"
+                        android:src="@drawable/post_icon"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <TextView
+                    style="@style/admin_control_panel_text_views"
+                    android:id="@+id/admin_control_panel_posts_management_text_view"
+                    android:text="@string/control_panel_activity_posts_managements_text_view"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/admin_control_panel_basic_card_view"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_card_view_of_image_views"
+                    >
+                    <ImageView
+                        style="@style/admin_control_panel_image_views"
+                        android:src="@drawable/advertisement_icon"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <TextView
+                    style="@style/admin_control_panel_text_views"
+                    android:id="@+id/admin_control_panel_adds_management_text_view"
+                    android:text="@string/control_panel_activity_adds_managements_text_view"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            style="@style/admin_control_panel_basic_card_view"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_card_view_of_image_views"
+                    >
+                    <ImageView
+                        style="@style/admin_control_panel_image_views"
+                        android:src="@drawable/ic_power_button"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <TextView
+                    style="@style/admin_control_panel_text_views"
+                    android:id="@+id/admin_control_panel_modified_management_text_view"
+                    android:text="@string/control_panel_activity_modified_managements_text_view"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

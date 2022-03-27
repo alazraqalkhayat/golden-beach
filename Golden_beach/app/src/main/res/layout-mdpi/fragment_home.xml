@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    >
+
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/home_fragment_swipe_refresh_layout"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            >
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/home_fragment_image_slider"
+                android:elevation="5dp"
+                android:scaleType="fitXY"
+                app:auto_cycle="true"
+                app:period="3000"
+                app:delay="0"
+                app:placeholder="@drawable/vidio_icon"
+                app:corner_radius="20"
+                app:error_image="@drawable/vidio_icon"
+
+
+                />
+
+        </LinearLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    style="@style/zontoba_linear_layout"
+                    android:background="@drawable/shape_of_zontoba"
+                    >
+                    <TextView
+                        style="@style/zontoba_text_view"
+                        android:text="@string/home_fragment_we_have_maintenance_section"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/name_of_sections_headers_text_view"
+                    android:text="@string/movies_list_modern_movies_text_view"
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    style="@style/home_recycle_view"
+                    android:id="@+id/movies_recycle_view"
+                    />
+
+                <TextView
+                    style="@style/name_of_sections_headers_text_view"
+                    android:text="@string/movies_list_modern_series_text_view"
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    style="@style/home_recycle_view"
+                    android:id="@+id/series_recycle_view"
+
+                    />
+                <TextView
+                    style="@style/name_of_sections_headers_text_view"
+                    android:text="@string/movies_list_modern_anime_text_view"
+
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    style="@style/home_recycle_view"
+                    android:id="@+id/animation_recycle_view"
+
+                    />
+
+
+                <TextView
+                    style="@style/name_of_sections_headers_text_view"
+                    android:text="@string/movies_list_modern_plays_text_view"
+
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    style="@style/home_recycle_view"
+                    android:id="@+id/plays_recycle_view"
+
+                    />
+                <TextView
+                    style="@style/name_of_sections_headers_text_view"
+                    android:text="@string/movies_list_modern_documentaries_text_view"
+
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    style="@style/home_recycle_view"
+                    android:id="@+id/documentaries_recycle_view"
+
+                    />
+
+                <TextView
+                    style="@style/name_of_sections_headers_text_view"
+                    android:text="@string/others"
+
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    style="@style/home_recycle_view"
+                    android:id="@+id/others_recycle_view"
+
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+

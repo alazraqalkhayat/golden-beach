@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.Login_activity"
+    style="@style/light_golden_gray"
+
+    >
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="170dp"
+    android:background="@drawable/shape_of_login_and_signup"
+    android:elevation="20dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/login_activity_linear_layout"
+
+
+    >
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/login_and_signup_text_input_layout"
+            app:startIconDrawable="@drawable/person_icon_golden"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/login_and_signup_activities_edit_texts"
+                android:id="@+id/login_activity_user_name_edit_text"
+                android:hint="@string/login_activity_user_name_hint"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:background="@drawable/shape_of_login_and_sign_up_edit_texts"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/login_and_signup_text_input_layout"
+            app:startIconDrawable="@drawable/lock_icon"
+            app:passwordToggleEnabled="true"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_activity_password_edit_text"
+                android:hint="@string/login_activity_password_hint"
+                style="@style/login_and_signup_activities_edit_texts"
+                android:background="@drawable/shape_of_login_and_sign_up_edit_texts"
+                android:inputType="textPassword"
+                android:imeOptions="actionDone"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_activity_forget_text_view"
+            android:layout_gravity="end"
+            android:text="@string/login_activity_forget_password_text_view"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/dark_blue_with_opacity"
+            android:textSize="20sp"
+            android:fontFamily="@font/inika_bold"
+
+        />
+
+        <Button
+            style="@style/login_and_signup_activities_buttons"
+            android:id="@+id/login_activity_login_button"
+            android:text="@string/login_activity_login_button"
+            android:layout_below="@id/login_activity_linear_layout"
+            android:drawableEnd="@drawable/login_icon2"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/login_activity_linear_layout"
+
+
+       >
+    <TextView
+
+        style="@style/login_and_signup_do_you_have_an_account_text_view"
+        android:text="@string/login_activity_message_text_view"
+        android:id="@+id/login_activity_message_text_view"
+
+        />
+
+    <TextView
+        style="@style/login_and_signup_create_and_login_text_views"
+        android:layout_toEndOf="@id/login_activity_message_text_view"
+        android:layout_below="@id/login_activity_linear_layout"
+        android:text="@string/login_activity_create_text_view"
+        android:id="@+id/login_activity_create_text_view"
+
+
+    />
+
+        </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

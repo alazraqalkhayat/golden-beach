@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.Base_complainants_activity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_golden"
+        android:id="@+id/complainants_activity_app_bar_id"
+
+        >
+
+
+
+        <!--android:layout_height="?attr/actionBarSize"-->
+
+        <androidx.appcompat.widget.Toolbar
+            style="@style/tool_bar"
+            android:padding="0dp"
+            android:id="@+id/complainants_activity_tool_bar_id"
+
+        >
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_below="@id/complainants_activity_app_bar_id"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/complainants_card_view"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:elevation="5dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                >
+                <TextView
+                    style="@style/suggestions_and_complainants_messages"
+                    android:text="@string/complainants_message"
+                    android:id="@+id/complainants_message_text_view"
+                    android:fontFamily="@font/inika"
+
+                    />
+
+
+                <EditText
+                    style="@style/suggestions_and_complainants_edit_text"
+                    android:layout_below="@id/complainants_message_text_view"
+                    android:hint="@string/complainants_hint"
+                    android:id="@+id/complainants_edit_text"
+                    android:inputType="text"
+                    android:imeOptions="actionDone"
+                    />
+
+                <Button
+                    style="@style/suggestions_and_complainants_buttons"
+                    android:layout_below="@id/complainants_edit_text"
+                    android:id="@+id/complainants_button"
+
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/complainants_recycle_view"
+            android:layout_below="@id/complainants_card_view"
+            android:layout_marginTop="20dp"
+            />
+
+        <ProgressBar
+            style="@style/all_list_activity_load_more_progress_bar"
+            android:id="@+id/base_complainants_activity_load_more_progress_bar"
+            android:layout_below="@id/complainants_recycle_view"
+
+            />
+
+        <ImageView
+            style="@style/all_list_activity_reload_image_view"
+            android:id="@+id/base_complainants_activity_reload_image_view"
+            android:layout_below="@id/base_complainants_activity_load_more_progress_bar"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

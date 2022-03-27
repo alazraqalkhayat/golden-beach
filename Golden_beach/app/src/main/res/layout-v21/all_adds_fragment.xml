@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adds_management_fragments.All_adds_fragment">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="1"
+        android:id="@+id/all_adds_fragment_grid_view"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:verticalSpacing="1dp"
+
+
+    />
+
+    <TextView
+        style="@style/watching_list_fragment_have_not_added_text_view"
+        android:id="@+id/all_adds_no_adds_text_view"
+        android:text="@string/all_adds_fragment_no_adds_text_view"
+        android:layout_centerInParent="true"
+
+    />
+</RelativeLayout>
+</FrameLayout>

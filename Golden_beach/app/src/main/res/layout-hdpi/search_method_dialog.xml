@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.Search_method_dialog"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        style="@style/evaluation_all_activity_header_text_view"
+        android:id="@+id/evaluation_dialog_title_text_view"
+        android:text="@string/search_method_header"
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/evaluation_dialog_title_text_view"
+        android:padding="10dp"
+        >
+
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_method_dialog_radio_group"
+            >
+
+            <RadioButton
+                android:id="@+id/search_method_dialog_name_radio_button"
+                style="@style/search_fragment_radio_buttons"
+                android:text="@string/search_methods_name"
+                android:background="@color/light_gray"
+
+                />
+
+            <RadioButton
+                android:id="@+id/search_method_dialog_year_radio_button"
+                style="@style/search_fragment_radio_buttons"
+                android:text="@string/search_methods_year"
+                android:background="@color/light_gray"
+
+                />
+
+            <RadioButton
+                android:id="@+id/search_method_dialog_evaluation_radio_button"
+                style="@style/search_fragment_radio_buttons"
+                android:text="@string/search_methods_evaluation"
+                android:background="@color/light_gray"
+
+                />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</RelativeLayout>

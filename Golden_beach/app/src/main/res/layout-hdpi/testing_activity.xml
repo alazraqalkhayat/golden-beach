@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Testing_activity">
+    <!--
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/web_view"
+        />
+            <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="20dp"
+            >
+
+
+
+
+        </androidx.cardview.widget.CardView>
+            <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed"
+        />
+        -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+                <!-- movies card views-->
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/all_movies_card_view"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="ALL MOVIES"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="200dp"
+                    android:layout_height="2dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="3dp"
+
+                    />
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/movies_foreign_card_view"
+                    android:layout_marginTop="3dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_foreign"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/movies_arabic_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_arabic"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/movies_indian_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_indian"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/movies_turkish_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_turkish"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/movies_korian_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_korean"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/movies_japanese_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_japanese"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/movies_chinese_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_chinese"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/movies_thai_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_thai"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/movies_indonesian_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_Indonesian"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!--series card views-->
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/all_series_card_view"
+                    android:layout_marginTop="15sp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="ALL SERIES"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="200dp"
+                    android:layout_height="2dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="3dp"
+
+                    />
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/series_foreign_card_view"
+                    android:layout_marginTop="0dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_foreign"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/series_arabic_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_arabic"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/series_indian_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_indian"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/series_turkish_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_turkish"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/series_korean_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_korean"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/series_japanese_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_japanese"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/series_chinese_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_chinese"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/series_thai_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_thai"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/series_indonesian_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_Indonesian"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!--ANIMATIONS CARD VIEWS-->
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/all_animations_card_view"
+                    android:layout_marginTop="15dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="ALL ANIMATIONS"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="200dp"
+                    android:layout_height="2dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="3dp"
+
+                    />
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/animations_movies_card_view"
+                    android:layout_marginTop="0dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_animations_movies_dabbed"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/animations_series_card_view"
+                    android:layout_marginTop="0dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_thai"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!--PLAYS CARD VIEWS-->
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/all_plays_card_view"
+                    android:layout_marginTop="15dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_plays"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="200dp"
+                    android:layout_height="2dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="3dp"
+
+                    />
+
+
+                <!--DOCUMENTARIES CARD VIEWS-->
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/all_documentaries_card_view"
+                    android:layout_marginTop="15dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_documentaries"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="200dp"
+                    android:layout_height="2dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="3dp"
+
+                    />
+
+                <!--OTHERS CARD VIEWS-->
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/all_others_card_view"
+                    android:layout_marginTop="15dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_others"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="200dp"
+                    android:layout_height="2dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="3dp"
+
+                    />
+
+
+                <!--GAMES CARD VIEWS-->
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+                    android:id="@+id/all_games_card_view"
+                    android:layout_marginTop="15dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_games"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

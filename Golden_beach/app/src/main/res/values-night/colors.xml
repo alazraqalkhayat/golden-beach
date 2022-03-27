@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+
+    <color name="white">#070707</color>
+    <color name="dark_black">#070707</color>
+    <color name="black_with_opacity">#97070707</color>
+    <color name="light_black">#3C3B3B</color>
+    <color name="light_golden">#070707</color>
+    <color name="dark_golden">#3C3B3B</color>
+    <color name="golden_with_opacity">#D8FFDF00</color>
+    <color name="my_color">#97070707</color>
+    <color name="my_color2">#AEF1ED</color>
+
+    <color name="green">#33D10F</color>
+
+    <color name="color_error">#7C0C0C</color>
+
+    <color name="light_gray">#CABCBA</color>
+    <color name="light_gray2">#E4E0E0</color>
+
+    <color name="dark_gray">#999999</color>
+
+    <color name="dark_blue">#ffffff</color>
+    <color name="dark_blue_with_opacity">#ffffff</color>
+    <color name="light_blue">#0A2447</color>
+
+    <color name="login_scroll_color">#97070707</color>
+    <!--dark blue #071831-->
+    <!--white #ffffff-->
+    <!--dark_blue_with_opacity #071831-->
+
+    <!--light golden #FFDF00-->
+
+
+</resources>

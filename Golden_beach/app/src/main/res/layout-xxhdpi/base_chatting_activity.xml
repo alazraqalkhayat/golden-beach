@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Base_chatting_activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        style="@style/app_bar"
+        android:id="@+id/base_chatting_activity_app_bar"
+
+        >
+
+
+
+        <!--android:layout_height="?attr/actionBarSize"-->
+
+        <androidx.appcompat.widget.Toolbar
+            style="@style/tool_bar"
+            android:id="@+id/base_chatting_activity_tool_bar_id"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                style="@style/base_chatting_activity_user_image_view"
+                android:id="@+id/base_chatting_activity_user_image_view"
+
+                />
+
+            <TextView
+                style="@style/base_chatting_activity_user_name_text_view"
+                android:text="moaid"
+                android:id="@+id/base_chatting_activity_user_name_text_view"
+
+
+                />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/base_chatting_activity_recycle_view"
+        android:layout_below="@id/base_chatting_activity_app_bar"
+        android:layout_above="@id/base_chatting_activity_linear_layout"
+        android:layout_margin="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/base_chatting_activity_linear_layout"
+        android:background="@drawable/shape_of_contact_us_edit_text"
+
+        >
+
+        <EditText
+            style="@style/base_chatting_activity_edit_text"
+            android:id="@+id/base_chatting_activity_message_edit_text"
+
+            />
+
+        <ImageButton
+            style="@style/base_chatting_activity_image_button"
+            android:id="@+id/base_chatting_activity_image_button"
+
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

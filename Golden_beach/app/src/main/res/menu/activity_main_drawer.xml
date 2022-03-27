@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon_golden"
+            android:title="@string/menu_home" />
+
+
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/sections_icon_golden"
+            android:title="@string/menu_categories" />
+
+        <item
+            android:id="@+id/nav_watching_list"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_watching_list" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_icon_golden"
+            android:title="@string/menu_search"
+            />
+    </group>
+
+
+
+<!--
+    <item android:title="@string/menu_title_services">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_maintenance"
+                android:icon="@drawable/fixing_icon_golden"
+                android:title="@string/menu_maintenance" />
+
+            </group>
+
+        </menu>
+    </item>
+-->
+
+    <item android:title="@string/menu_title_tools">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings_icon_golden"
+                android:title="@string/menu_settings"
+            />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_title_communication">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/chatting_icon1"
+                android:title="@string/menu_send" />
+
+
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/phone_icon_golden"
+                android:title="@string/menu_contact_us" />
+
+            <item
+                android:id="@+id/nav_suggestions"
+                android:icon="@drawable/feedback_icon"
+                android:title="@string/menu_suggestions" />
+
+
+
+            </group>
+        </menu>
+    </item>
+
+
+
+    <item android:title="@string/menu_title_others">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/about_app"
+                android:icon="@drawable/android_icon"
+                android:title="@string/menu_about_app"
+
+            />
+
+
+            <item
+                android:id="@+id/nav_about_developer"
+                android:icon="@drawable/info_icon_golden"
+                android:title="@string/menu_about_developer" />
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

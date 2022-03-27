@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chatting.Chatting_fragment"
+    >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chatting_fragment_just_admin_recycle_view"
+        android:layout_margin="10dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+
+
+    />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chatting_fragment_all_users_recycle_view"
+        android:layout_below="@id/chatting_fragment_just_admin_recycle_view"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_margin="10dp"
+
+
+        />
+
+    <TextView
+        style="@style/watching_list_fragment_have_not_added_text_view"
+        android:id="@+id/chatting_fragment_no_items_text_view"
+        android:layout_centerVertical="true"
+        android:text="@string/chatting_no_items"
+    />
+
+
+
+</RelativeLayout>

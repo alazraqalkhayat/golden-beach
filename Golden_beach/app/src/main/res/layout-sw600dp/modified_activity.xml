@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Modified_activity"
+    android:orientation="vertical"
+>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_of_contact_us_edit_text"
+        android:id="@+id/adds_management_app_bar_layout"
+        >
+        <androidx.appcompat.widget.Toolbar
+            style="@style/tool_bar"
+            android:padding="0dp"
+            android:id="@+id/modified_activity_tool_bar_id"
+
+            />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+            >
+
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/all_movies"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/all_movies_switch"
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_foreign"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/movies_foreign_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_arabic"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/movies_arabic_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_indian"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/movies_indian_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_turkish"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/movies_turkish_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_korean"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/movies_korean_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_japanese"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/movies_japanese_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_chinese"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/movies_chinese_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_thai"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/movies_thai_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_Indonesian"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/movies_indonesian_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/all_series"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/all_series_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_foreign"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/series_foreign_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_arabic"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/series_arabic_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_indian"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/series_indian_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_turkish"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/series_turkish_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_korean"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/series_korean_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_japanese"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/series_japanese_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_chinese"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/series_chinese_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_thai"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/series_thai_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_Indonesian"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/series_indonesian_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_arabic_cartons"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/series_arabic_cartoons_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/all_animations"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/all_animations_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_animations_movies_translated"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/animations_movies_translated_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_animations_movies_dabbed"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/animations_movies_dabbed_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_animations_series_translated"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/animations_series_translated_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/brand_of_section_animations_series_dabbed"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/animations_series_dabbed_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/section_plays"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/all_plays_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/section_documentaries"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/all_documentaries_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/section_others"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/all_others_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/admin_control_panel_basic_card_view"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/admin_control_panel_text_views"
+                            android:text="@string/section_games"
+                            android:layout_weight="1"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            style="@style/admin_control_panel_card_view_of_image_views"
+                            >
+
+                            <com.github.zagum.switchicon.SwitchIconView
+                                style="@style/modified_title_switches_style"
+                                android:id="@+id/all_games_switch"
+
+                                />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,329 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+    __________________<!--styles dimens-->__________________________________
+
+    <!--zontoba dimens-->
+    <dimen name="zontoba_linear_layout_padding">10dp</dimen>
+    <dimen name="zontoba_text_view_text_size">15sp</dimen>
+    <dimen name="zontoba_text_view_elevation">10dp</dimen>
+
+
+    <dimen name="edit_posts_and_adds_check_box">15sp</dimen>
+
+    <!--splash activity dimens-->
+    <dimen name="splash_activity_logo_image_layout_height">300dp</dimen>
+    <dimen name="splash_activity_logo_image_layout_marginTop">20dp</dimen>
+
+    <dimen name="splash_activity_linear_layout_layout_marginTop">50dp</dimen>
+
+    <dimen name="splash_activity_shop_name_text_view_text_size">50sp</dimen>
+    <dimen name="splash_activity_shop_name_text_view_elevation">10dp</dimen>
+
+    <dimen name="splash_activity_copy_right_text_view_textSize">15sp</dimen>
+    <dimen name="splash_activity_copy_right_text_view_layout_marginTop">40dp</dimen>
+    <dimen name="splash_activity_copy_right_text_view_elevation">10dp</dimen>
+
+    <!--login and sign up activities dimens-->
+
+    <dimen name="login_and_signup_header_relative_layout">200dp</dimen>
+
+
+
+    <dimen name="login_and_signup_activities_logo_image_view_layout_width">200dp</dimen>
+    <dimen name="login_and_signup_activities_logo_image_view_layout_height">200dp</dimen>
+    <dimen name="login_and_signup_activities_logo_image_view_layout_marginTop">10dp</dimen>
+
+    <dimen name="login_and_signup_activities_buttons_layout_width">200dp</dimen>
+    <dimen name="login_and_signup_activities_buttons_layout_marginTop">50dp</dimen>
+    <dimen name="login_and_signup_activities_buttons_layout_marginBottom">10dp</dimen>
+    <dimen name="login_and_signup_activities_buttons_padding">10dp</dimen>
+    <dimen name="login_and_signup_activities_buttons_textSize">15sp</dimen>
+
+    <dimen name="login_and_signup_text_input_layout_layout_height">50dp</dimen>
+    <dimen name="login_and_signup_text_input_layout_layout_marginTop">20dp</dimen>
+
+
+    <dimen name="login_and_signup_activities_edit_texts_layout_height">50dp</dimen>
+    <dimen name="login_and_signup_activities_edit_texts_marginBottom">5dp</dimen>
+    <dimen name="login_and_signup_activities_edit_texts_textSize">15sp</dimen>
+
+    <dimen name="login_and_signup_do_you_have_an_account_text_view_textSize">10sp</dimen>
+
+
+    <dimen name="login_and_signup_create_and_login_text_views_layout_width">15sp</dimen>
+    <dimen name="login_and_signup_create_and_login_text_views_layout_height">15sp</dimen>
+    <dimen name="login_and_signup_create_and_login_text_views_layout_marginStart">3dp</dimen>
+    <dimen name="login_and_signup_create_and_login_text_views_textSize">10sp</dimen>
+
+    <dimen name="sign_up_activity_user_image_view_layout_width">120sp</dimen>
+    <dimen name="sign_up_activity_user_image_view_layout_height">120sp</dimen>
+    <dimen name="sign_up_activity_user_image_view_layout_marginTop">20dp</dimen>
+
+    <dimen name="sign_up_activity_camera_icon_image_view_layout_width">50dp</dimen>
+    <dimen name="sign_up_activity_camera_icon_image_view_layout_height">50dp</dimen>
+    <dimen name="sign_up_activity_camera_icon_image_view_layout_marginTop">80dp</dimen>
+    <dimen name="sign_up_activity_camera_icon_image_view_layout_marginStart">-35dp</dimen>
+
+
+    <!--signup_condation_activity dimens-->
+    <dimen name="sign_up_condateins_header_text_view_layout_height">60dp</dimen>
+    <dimen name="sign_up_condateins_header_text_view_text_size">20sp</dimen>
+
+    <dimen name="sign_up_condateins_circle_icon_layout_width">20dp</dimen>
+    <dimen name="sign_up_condateins_circle_icon_layout_height">20dp</dimen>
+
+    <dimen name="sign_up_condateins_text_view_textSize">15sp</dimen>
+
+
+    <!--ADMIN CONTROL PANEL DIMENS-->
+    <dimen name="admin_control_panel_text_views_layout_height">40dp</dimen>
+    <dimen name="admin_control_panel_text_views_layout_marginStart">10dp</dimen>
+    <dimen name="admin_control_panel_text_views_padding">10dp</dimen>
+
+    <dimen name="admin_control_panel_basic_card_view_layout_height">40dp</dimen>
+    <dimen name="admin_control_panel_basic_card_view_layout_marginTop">10dp</dimen>
+    <dimen name="admin_control_panel_basic_card_view_layout_marginBottom">5dp</dimen>
+    <dimen name="admin_control_panel_basic_card_view_cardCornerRadius">20dp</dimen>
+    <dimen name="admin_control_panel_basic_card_view_cardElevation">5dp</dimen>
+
+    <dimen name="admin_control_panel_card_view_of_image_views_layout_width">40dp</dimen>
+    <dimen name="admin_control_panel_card_view_of_image_views_cardCornerRadius">8dp</dimen>
+    <dimen name="admin_control_panel_card_view_of_image_views_cardElevation">5dp</dimen>
+
+
+
+    <!--ADD NEW POST ACTIVITY DIMENS-->
+    <dimen name="add_new_post_back_image_view_layout_width">30dp</dimen>
+    <dimen name="add_new_post_back_image_view_layout_height">30dp</dimen>
+    <dimen name="add_new_post_back_image_view_layout_marginStart">15dp</dimen>
+
+    <dimen name="add_new_post_all_image_view_layout_width">150dp</dimen>
+    <dimen name="add_new_post_all_image_view_layout_height">150dp</dimen>
+    <dimen name="add_new_post_all_image_view_layout_marginTop">20dp</dimen>
+
+    <dimen name="add_new_post_header_text_view_layout_height">60dp</dimen>
+    <dimen name="add_new_post_header_text_view_layout_marginEnd">20dp</dimen>
+    <dimen name="add_new_post_header_text_view_textSize">20sp</dimen>
+
+
+    <dimen name="add_new_post_spinners_text_views_padding">4sp</dimen>
+
+
+    <dimen name="add_new_post_spinners_elevation">3dp</dimen>
+    <dimen name="add_new_post_spinners_popupElevation">3dp</dimen>
+
+
+    <dimen name="add_new_post_linear_layout_layout_marginTop">10dp</dimen>
+    <dimen name="add_new_post_linear_layout_padding">10dp</dimen>
+
+
+    <dimen name="add_new_post_text_views_layout_marginTop">10dp</dimen>
+    <dimen name="add_new_post_text_views_layout_layout_marginLeft">3dp</dimen>
+    <dimen name="add_new_post_text_views_layout_textSize">15dp</dimen>
+
+    <dimen name="add_new_post_edit_texts_layout_height">50dp</dimen>
+    <dimen name="add_new_post_edit_texts_layout_marginBottom">5dp</dimen>
+    <dimen name="add_new_post_edit_texts_padding">10dp</dimen>
+    <dimen name="add_new_post_edit_texts_textSize">10sp</dimen>
+
+    <dimen name="add_new_post_upload_button_layout_width">200dp</dimen>
+    <dimen name="add_new_post_upload_button_layout_marginTop">20dp</dimen>
+    <dimen name="add_new_post_upload_button_layout_marginBottom">10dp</dimen>
+    <dimen name="add_new_post_upload_button_padding">10dp</dimen>
+    <dimen name="add_new_post_upload_button_textSize">15sp</dimen>
+
+    <!--add new add fragment-->
+    <dimen name="new_add_fragment_image_view_layout_height">200dp</dimen>
+    <dimen name="new_add_fragment_image_view_layout_margin">20dp</dimen>
+
+    <!-- HOME FRAGMENT POSTS DIMENS-->
+    <dimen name="name_of_sections_headers_text_view_marginTop">20dp</dimen>
+    <dimen name="name_of_sections_headers_text_view_text_size">12sp</dimen>
+
+    <dimen name="home_recycle_view_marginTop">10dp</dimen>
+
+
+    <dimen name="posts_items_header_text_view_layout_height">50dp</dimen>
+    <dimen name="posts_items_header_text_view_layout_marginTop">20dp</dimen>
+    <dimen name="posts_items_header_text_view_textSize">25sp</dimen>
+
+
+
+    <dimen name="posts_items_text_views_layout_marginTop">20dp</dimen>
+    <dimen name="posts_items_text_views_textSize">12sp</dimen>
+
+    <dimen name="posts_items_see_more_details_button_layout_height">50dp</dimen>
+    <dimen name="posts_items_see_more_details_button_padding">10dp</dimen>
+    <dimen name="posts_items_see_more_details_button_textSize">15sp</dimen>
+
+    <dimen name="sections_fragment_header_items_padding">10dp</dimen>
+    <dimen name="sections_fragment_header_items_elevation">10dp</dimen>
+    <dimen name="sections_fragment_header_items_textSize">20sp</dimen>
+
+    <dimen name="sections_fragment_body_items_layout_marginStart">30dp</dimen>
+    <dimen name="sections_fragment_body_items_layout_marginTop">15dp</dimen>
+    <dimen name="sections_fragment_body_items_layout_marginBottom">10dp</dimen>
+    <dimen name="sections_fragment_body_items_elevation">5dp</dimen>
+    <dimen name="sections_fragment_body_items_textSize">18sp</dimen>
+
+    <!--all list activity dimens-->
+
+    <dimen name="all_list_activity_header_text_view_layout_marginTop">20dp</dimen>
+    <dimen name="all_list_activity_header_text_view_textSize">15sp</dimen>
+
+    <dimen name="all_list_activity_spinner_layout_height">50dp</dimen>
+    <dimen name="all_list_activity_spinner_layout_marginTop">5dp</dimen>
+    <dimen name="all_list_activity_spinner_layout_marginBottom">5dp</dimen>
+    <dimen name="all_list_activity_spinner_marginStart">10dp</dimen>
+    <dimen name="all_list_activity_spinner_marginEnd">10dp</dimen>
+    <dimen name="all_list_activity_spinner_padding">5dp</dimen>
+    <dimen name="all_list_activity_spinner_elevation">5dp</dimen>
+    <dimen name="all_list_activity_spinner_popupElevation">5dp</dimen>
+
+    <dimen name="all_list_activity_list_items_all_image_view_layout_height">200dp</dimen>
+
+    <dimen name="all_list_activity_list_items_name_of_all_text_view_layout_marginTop">5dp</dimen>
+    <dimen name="all_list_activity_list_items_name_of_all_text_view_textSize">15sp</dimen>
+
+    <dimen name="all_list_activity_list_items_year_of_all_text_view_marginBottom">5dp</dimen>
+    <dimen name="all_list_activity_list_items_year_of_all_text_view_textSize">10sp</dimen>
+
+    <!--ABOUT ALL ACTIVITY DIMENS-->
+    <dimen name="about_all_activity_image_of_all_layout_width">150dp</dimen>
+    <dimen name="about_all_activity_image_of_all_layout_height">180dp</dimen>
+
+    <dimen name="about_all_activity_name_of_all_text_view_textSize">20sp</dimen>
+    <dimen name="about_all_activity_category_of_all_text_view_textSize">12sp</dimen>
+
+    <dimen name="about_all_activity_story_text_view_padding">10dp</dimen>
+
+    <dimen name="about_all_activity_edit_texts_layout_height">50dp</dimen>
+    <dimen name="about_all_activity_edit_texts_layout_marginBottom">5dp</dimen>
+    <dimen name="about_all_activity_edit_texts_padding">10dp</dimen>
+    <dimen name="about_all_activity_edit_texts_textSize">15sp</dimen>
+
+    <dimen name="about_all_activity_show_and_hidden_text_view_textSize">10sp</dimen>
+
+    <dimen name="about_all_activity_card_views_text_views_text_size">10sp</dimen>
+
+    <dimen name="about_all_activity_buttons_layout_height">50dp</dimen>
+    <dimen name="about_all_activity_buttons_layout_marginStart">5dp</dimen>
+    <dimen name="about_all_activity_buttons_layout_marginEnd">5dp</dimen>
+    <dimen name="about_all_activity_buttons_padding">10dp</dimen>
+    <dimen name="about_all_activity_buttons_elevation">8dp</dimen>
+    <dimen name="about_all_activity_buttons_textSize">9sp</dimen>
+
+    <dimen name="about_all_activity_rating_bar_layout_marginTop">10dp</dimen>
+
+    <dimen name="about_all_activity_comments_items_layout_marginStart">20dp</dimen>
+    <dimen name="about_all_activity_comments_items_textSize">20sp</dimen>
+
+    <dimen name="evaluation_all_activity_header_text_view_layout_height">50dp</dimen>
+    <dimen name="evaluation_all_activity_header_text_view_text_size">20sp</dimen>
+
+
+    <!--watching list styles-->
+    <dimen name="watching_list_fragment_have_not_added_text_view_textSize">15sp</dimen>
+
+    <dimen name="watching_list_fragment_counter_card_view_layout_width">30dp</dimen>
+    <dimen name="watching_list_fragment_counter_card_view_layout_height">30dp</dimen>
+    <dimen name="watching_list_fragment_counter_card_view_cardCornerRadius">20dp</dimen>
+    <dimen name="watching_list_fragment_counter_card_view_cardElevation">10dp</dimen>
+
+    <dimen name="watching_list_fragment_counter_text_view_textSize">12sp</dimen>
+
+    <dimen name="watching_list_fragment_name_of_all_text_view_layout_marginTop">2dp</dimen>
+    <dimen name="watching_list_fragment_name_of_all_text_view_padding">5dp</dimen>
+    <dimen name="watching_list_fragment_name_of_all_text_view_elevation">5dp</dimen>
+    <dimen name="watching_list_fragment_name_of_all_text_view_textSize">15sp</dimen>
+
+    <dimen name="watching_list_fragment_session_of_all_text_view_padding">2dp</dimen>
+    <dimen name="watching_list_fragment_session_of_all_text_view_textSize">12sp</dimen>
+
+    <dimen name="watching_list_fragment_check_box_layout_marginEnd">5dp</dimen>
+
+    <!--search fragment dimens-->
+    <dimen name="search_fragment_radio_buttons_margin_top">10dp</dimen>
+    <dimen name="search_fragment_radio_buttons_text_size">12sp</dimen>
+
+    <!--settings fragment dimens-->
+    <dimen name="settings_title_text_views_style_layout_height">40dp</dimen>
+    <dimen name="settings_title_text_views_style_textSize">8sp</dimen>
+
+    <dimen name="settings_title_switches_style_layout_height">40dp</dimen>
+    <dimen name="settings_title_switches_style_padding">8dp</dimen>
+
+    <!--base chatting activity -->
+    <dimen name="base_chatting_activity_user_image_view_layout_width">50dp</dimen>
+    <dimen name="base_chatting_activity_user_image_view_layout_height">50dp</dimen>
+
+    <dimen name="base_chatting_activity_user_name_text_view_layout_marginStart">20dp</dimen>
+    <dimen name="base_chatting_activity_user_name_text_view_padding">4dp</dimen>
+    <dimen name="base_chatting_activity_user_name_text_view_textSize">20sp</dimen>
+
+    <dimen name="base_chatting_activity_edit_text_layout_marginStart">5dp</dimen>
+    <dimen name="base_chatting_activity_edit_text_padding">5dp</dimen>
+    <dimen name="base_chatting_activity_edit_text_size">12dp</dimen>
+
+    <dimen name="base_chatting_activity_image_button_layout_marginStart">5dp</dimen>
+
+    <dimen name="base_chatting_items_layout_width">150dp</dimen>
+    <dimen name="base_chatting_items_layout_margin">10dp</dimen>
+    <dimen name="base_chatting_items_padding">5dp</dimen>
+    <dimen name="base_chatting_items_text_size">15sp</dimen>
+
+
+    <!--contact us styles-->
+
+    <dimen name="contact_us_image_views_layout_width">250dp</dimen>
+    <dimen name="contact_us_image_views_layout_height">250dp</dimen>
+    <dimen name="contact_us_image_views_layout_margin_top">20dp</dimen>
+
+    <dimen name="contact_us_style_text_views_layout_marginStart">3dp</dimen>
+    <dimen name="contact_us_style_text_views_layout_margin_top">10dp</dimen>
+    <dimen name="contact_us_style_text_views_text_size">15sp</dimen>
+
+
+    <dimen name="contact_us_style_edit_text_layout_height">50dp</dimen>
+    <dimen name="contact_us_style_edit_text_layout_marginBottom">5dp</dimen>
+    <dimen name="contact_us_style_edit_text_text_size">15sp</dimen>
+
+    <!--suggestions_and_complainants style-->
+    <dimen name="suggestions_and_complainants_card_views_layout_marginBottom">10dp</dimen>
+    <dimen name="suggestions_and_complainants_card_views_cardCornerRadius">8dp</dimen>
+    <dimen name="suggestions_and_complainants_card_views_elevation">3dp</dimen>
+    <dimen name="suggestions_and_complainants_card_views_cardElevation">3dp</dimen>
+
+    <dimen name="suggestions_and_complainants_image_view_layout_width">50dp</dimen>
+    <dimen name="suggestions_and_complainants_image_view_layout_height">50dp</dimen>
+    <dimen name="suggestions_and_complainants_image_view_layout_marginTop">8dp</dimen>
+    <dimen name="suggestions_and_complainants_image_view_elevation">3dp</dimen>
+
+    <dimen name="suggestions_and_complainants_messages_layout_marginTop">50dp</dimen>
+    <dimen name="suggestions_and_complainants_messages_text_size">15sp</dimen>
+
+    <dimen name="suggestions_and_complainants_edit_text_layout_height">50dp</dimen>
+    <dimen name="suggestions_and_complainants_edit_text_layout_marginTop">10dp</dimen>
+    <dimen name="suggestions_and_complainants_edit_text_text_size">12sp</dimen>
+
+    <dimen name="suggestions_and_complainants_buttons_layout_width">200dp</dimen>
+    <dimen name="suggestions_and_complainants_buttons_layout_marginTop">20dp</dimen>
+    <dimen name="suggestions_and_complainants_buttons_layout_marginBottom">10dp</dimen>
+    <dimen name="suggestions_and_complainants_buttons_layout_padding">10dp</dimen>
+    <dimen name="suggestions_and_complainants_buttons_text_size">15sp</dimen>
+
+    <dimen name="suggestions_and_complainants_recycle_view_user_name_text_view_textSize">20sp</dimen>
+
+    <dimen name="suggestions_and_complainants_recycle_view_date_text_view_textSize">8sp</dimen>
+
+    <dimen name="suggestions_and_complainants_recycle_view_complainant_text_view_textSize">15sp</dimen>
+
+</resources>

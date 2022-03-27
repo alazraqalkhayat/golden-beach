@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/menu_send"
+        android:id="@+id/multiple_items_menu_send_items"
+        android:icon="@drawable/icon_send_2"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title="delet"
+        android:id="@+id/multiple_items_menu_delete_items"
+        android:icon="@drawable/delete_icon"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"
+    />
+
+
+
+
+
+</menu>

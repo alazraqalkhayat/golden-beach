@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+>
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_sections"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.sections.Sections_fragment"
+        android:label="@string/menu_categories"
+        tools:layout="@layout/sections_fragment" />
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.categories.Categories_fragment"
+        android:label="@string/menu_categories"
+        tools:layout="@layout/sections_fragment" />
+
+    <fragment
+        android:id="@+id/nav_watching_list"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.watching_list.Watching_list_fragment"
+        android:label="@string/menu_watching_list"
+        tools:layout="@layout/watching_list_fragment" />
+
+
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.search.Search_fragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/search_fragment" />
+
+
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.chatting.Chatting_fragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/chatting_fragment" />
+
+
+
+
+    <fragment
+        android:id="@+id/nav_maintenance"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.maintenance.Maintenance_fragment"
+        android:label="@string/menu_maintenance"
+        tools:layout="@layout/maintenance_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_accessories"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.accessories.Accessories_fragment"
+        android:label="@string/menu_accessories"
+        tools:layout="@layout/accessories_fragment" />
+
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.offers.Offers_fragment"
+        android:label="@string/menu_offers"
+        tools:layout="@layout/offers_fragment" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.settings.Settings_fragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/settings_fragment" />
+
+    <fragment
+        android:id="@+id/nav_suggestions"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.suggestions_and_complainants.Suggestions_and_complainants_fragment"
+        android:label="@string/menu_suggestions"
+        tools:layout="@layout/suggestions_fragment" />
+
+
+    <fragment
+        android:id="@+id/about_app"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.about_app.About_app_fragment"
+        android:label="@string/menu_about_app"
+        tools:layout="@layout/about_app_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.contact_us.Contact_us_fragment"
+        android:label="@string/menu_contact_us"
+        tools:layout="@layout/contact_us_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_about_developer"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.about_developer.About_developer_fragment"
+        android:label="@string/menu_about_developer"
+        tools:layout="@layout/about_developer_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.alazraq.alkhayat.goldenbeach.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+
+</navigation>

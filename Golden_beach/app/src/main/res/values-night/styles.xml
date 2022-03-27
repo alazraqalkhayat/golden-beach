@@ -1,0 +1,1445 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/light_golden</item>
+        <item name="colorPrimaryDark">@color/black_with_opacity</item>
+        <item name="colorAccent">@color/light_golden</item>
+        <item name="android:textColorPrimary">@color/dark_blue</item>
+        <item name="android:windowBackground">@color/black_with_opacity</item>
+
+    </style>
+
+    <style name="no_action_bar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/light_golden</item>
+        <item name="colorPrimaryDark">@color/black_with_opacity</item>
+        <item name="colorAccent">@color/light_golden</item>
+        <item name="android:textColorPrimary">@color/dark_blue</item>
+        <item name="android:windowBackground">@color/black_with_opacity</item>
+
+
+    </style>
+
+
+    <style name="activity_as_dialog" parent="Theme.AppCompat.Dialog">
+
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/light_golden</item>
+        <item name="colorAccent">@color/light_golden</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/black_with_opacity</item>
+
+
+    </style>
+
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" ></style>
+
+    <style name="white_and_black">
+        <item name="android:backgroundTint">@color/black_with_opacity</item>
+    </style>
+
+
+    <style name="light_golden_and_black">
+        <item name="android:background">@color/black_with_opacity</item>
+    </style>
+
+    <style name="light_golden_gray">
+        <item name="android:background">@color/light_gray</item>
+    </style>
+
+    <style name="my_alert_dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="android:colorAccent">@color/dark_blue</item>
+        <item name="android:colorPrimary">@color/dark_blue</item>
+
+    </style>
+
+
+    <style name="my_spot_alert_dialog_login" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/login_activity_progress_dialog_title</item>
+        <item name="DialogSpotColor">@color/light_golden</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+    <style name="my_spot_alert_dialog_sign_up" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/sign_up_activity_progress_dialog_title</item>
+        <item name="DialogSpotColor">@color/light_golden</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+    <style name="my_spot_alert_dialog_uploading_the_post" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/add_new_post_activity_add_new_post_progress_dialog_title</item>
+        <item name="DialogSpotColor">@color/light_golden</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+    <style name="my_spot_alert_dialog_uploading_the_add" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/new_add_fragment_new_add_progress_dialog_title</item>
+        <item name="DialogSpotColor">@color/light_golden</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+
+    <style name="my_spot_alert_dialog_deleting" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/deleting</item>
+        <item name="DialogSpotColor">@color/light_golden</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+    <style name="my_spot_alert_dialog_sending" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/sending</item>
+        <item name="DialogSpotColor">@color/light_golden</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+    <style name="my_spot_alert_dialog_adding_comment" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/about_all_activity_adding_new_comment_progress_dialog_title</item>
+        <item name="DialogSpotColor">@color/light_golden</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+    <style name="my_spot_alert_dialog_adding_evaluating" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/evaluating</item>
+        <item name="DialogSpotColor">@color/light_golden</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+
+    <!--navigation view styles -->
+
+    <style name="navigation_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="itemIconTint">@color/dark_blue</item>
+        <item name="itemShapeFillColor">@color/dark_blue</item>
+        <item name="itemTextColor">@color/dark_blue</item>
+        <item name="insetForeground">@color/black_with_opacity</item>
+        <item name="menu">@menu/activity_main_drawer</item>
+    </style>
+
+
+    <!--toolbar styles-->
+
+    <style name="app_bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/light_golden</item>
+
+    </style>
+
+    <style name="tool_bar" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/light_black</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:elevation">5dp</item>
+        <item name="titleTextColor">@color/dark_blue</item>
+        <item name="subtitleTextColor">@color/dark_blue</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="navigationIcon">@drawable/wait_row_bace_icon</item>
+
+
+    </style>
+
+    <style name="fab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:src">@drawable/admin_control_pannel_icon</item>
+        <item name="android:background">@color/light_golden</item>
+        <item name="backgroundTint">@color/light_golden</item>
+        <item name="android:elevation">5dp</item>
+
+    </style>
+
+    <!--ZONTOBA STYLES-->
+    <style name="zontoba_linear_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/shape_of_zontoba</item>
+        <item name="android:backgroundTint">@color/light_gray</item>
+        <item name="android:padding">@dimen/zontoba_linear_layout_padding</item>
+    </style>
+
+    <style name="zontoba_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+        <item name="android:textSize">@dimen/zontoba_text_view_text_size</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:elevation">@dimen/zontoba_text_view_elevation</item>
+        <item name="android:background">@drawable/shape_of_zontoba</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="edit_posts_and_adds_check_box">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:text">@string/also_chang_image_check_box</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:background">@color/light_black</item>
+
+
+    </style>
+    <!--splash activity styles-->
+    <style name="splash_activity_logo_image">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/splash_activity_logo_image_layout_height</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/splash_activity_logo_image_layout_marginTop</item>
+        <item name="android:src">@drawable/final_logo_dark_mode</item>
+
+    </style>
+
+
+    <style name="splash_activity_linear_layout">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/splash_activity_linear_layout_layout_marginTop</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="splash_activity_shop_name_text_view">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/splash_activity_shop_name_text_view_text_size</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily">@font/bungee_shade</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:elevation">@dimen/splash_activity_shop_name_text_view_elevation</item>
+
+
+    </style>
+
+
+    <style name="splash_activity_copy_right_text_view">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/splash_activity_copy_right_text_view_layout_marginTop</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:textColor">@color/dark_blue_with_opacity</item>
+        <item name="android:textSize">@dimen/splash_activity_copy_right_text_view_textSize</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:elevation">@dimen/splash_activity_copy_right_text_view_elevation</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+
+
+    </style>
+
+
+
+    <!--login and sign up activities-->
+
+    <style name="login_and_signup_header_relative_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/login_and_signup_header_relative_layout</item>
+        <item name="android:background">@drawable/shape_of_login_and_sign_up_activities</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+
+    </style>
+
+
+    <style name="login_and_signup_header_relative_scrollview">
+        <item name="android:backgroundTint">@color/black_with_opacity</item>
+    </style>
+
+
+    <style name="login_and_signup_activities_logo_image_view">
+        <item name="android:layout_width">@dimen/login_and_signup_activities_logo_image_view_layout_width</item>
+        <item name="android:layout_height">@dimen/login_and_signup_activities_logo_image_view_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/login_and_signup_activities_logo_image_view_layout_marginTop</item>
+        <item name="android:background">@drawable/shape_of_circle_image_view</item>
+        <item name="android:backgroundTint">@color/light_gray</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/final_logo</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+
+    <style name="login_and_signup_activities_buttons">
+        <item name="android:layout_width">@dimen/login_and_signup_activities_buttons_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/login_and_signup_activities_buttons_layout_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/login_and_signup_activities_buttons_layout_marginBottom</item>
+        <item name="android:padding">@dimen/login_and_signup_activities_buttons_padding</item>
+        <item name="android:textSize">@dimen/login_and_signup_activities_buttons_textSize</item>
+        <item name="android:text">@string/suggestions_and_complainants_button</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily">@font/alfa_slab_one</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:drawableEnd">@drawable/login_icon2</item>
+        <item name="android:background">@drawable/shape_of_buttons</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+
+
+    </style>
+
+
+    <style name="login_and_signup_text_input_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/login_and_signup_text_input_layout_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/login_and_signup_text_input_layout_layout_marginTop</item>
+        <item name="startIconTint">@color/dark_blue</item>
+        <item name="hintAnimationEnabled">true</item>
+        <item name="hintEnabled">false</item>
+        <item name="passwordToggleTint">@color/dark_blue</item>
+    </style>
+
+
+    <style name="login_and_signup_activities_edit_texts">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/login_and_signup_activities_edit_texts_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/login_and_signup_activities_edit_texts_marginBottom</item>
+        <item name="android:background">@drawable/shape_of_contact_us_edit_text</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textColorHint">@color/dark_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:textSize">@dimen/login_and_signup_activities_edit_texts_textSize</item>
+
+    </style>
+
+    <style name="login_and_signup_do_you_have_an_account_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/login_and_signup_do_you_have_an_account_text_view_textSize</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+
+    </style>
+
+
+    <style name="login_and_signup_create_and_login_text_views">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/login_and_signup_create_and_login_text_views_layout_marginStart</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textSize">@dimen/login_and_signup_create_and_login_text_views_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+
+    </style>
+
+
+    <style name="sign_up_activity_user_image_view">
+        <item name="android:layout_width">@dimen/sign_up_activity_user_image_view_layout_width</item>
+        <item name="android:layout_height">@dimen/sign_up_activity_user_image_view_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/sign_up_activity_user_image_view_layout_marginTop</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/shape_of_circle_image_view</item>
+        <item name="android:backgroundTint">@color/light_gray</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="sign_up_activity_camera_icon_image_view">
+        <item name="android:layout_width">@dimen/sign_up_activity_camera_icon_image_view_layout_width</item>
+        <item name="android:layout_height">@dimen/sign_up_activity_camera_icon_image_view_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/sign_up_activity_camera_icon_image_view_layout_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/sign_up_activity_camera_icon_image_view_layout_marginStart</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/shape_of_circle_image_view</item>
+        <item name="android:backgroundTint">@color/black_with_opacity</item>
+        <item name="android:src">@drawable/ic_menu_camera</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+
+    <!--signup_condation_activity-->
+    <style name="sign_up_condateins_header_text_view">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/sign_up_condateins_header_text_view_layout_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/sign_up_condations_title_text_view</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sign_up_condateins_header_text_view_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+        <item name="android:background">@color/light_gray</item>
+    </style>
+
+    <style name="sign_up_condateins_circle_icon">
+
+        <item name="android:layout_width">@dimen/sign_up_condateins_circle_icon_layout_width</item>
+        <item name="android:layout_height">@dimen/sign_up_condateins_circle_icon_layout_height</item>
+        <item name="android:src">@drawable/circle_icon</item>
+
+    </style>
+
+    <style name="sign_up_condateins_text_view">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/sign_up_condateins_text_view_textSize</item>
+
+    </style>
+
+
+
+    <!--ADMIN CONTROL PANEL STYLES-->
+    <style name="admin_control_panel_text_views">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/admin_control_panel_text_views_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/admin_control_panel_text_views_layout_marginStart</item>
+        <item name="android:padding">@dimen/admin_control_panel_text_views_padding</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/dark_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inika</item>
+    </style>
+
+
+    <style name="admin_control_panel_basic_card_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/admin_control_panel_basic_card_view_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/admin_control_panel_basic_card_view_layout_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/admin_control_panel_basic_card_view_layout_marginBottom</item>
+        <item name="cardCornerRadius">@dimen/admin_control_panel_basic_card_view_cardCornerRadius</item>
+        <item name="cardElevation">@dimen/admin_control_panel_basic_card_view_cardElevation</item>
+
+
+    </style>
+
+
+    <style name="admin_control_panel_card_view_of_image_views">
+        <item name="android:layout_width">@dimen/admin_control_panel_card_view_of_image_views_layout_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="cardBackgroundColor">@color/light_black</item>
+        <item name="cardCornerRadius">@dimen/admin_control_panel_card_view_of_image_views_cardCornerRadius</item>
+        <item name="cardElevation">@dimen/admin_control_panel_card_view_of_image_views_cardElevation</item>
+
+    </style>
+
+
+    <style name="admin_control_panel_image_views">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+
+
+    </style>
+
+
+
+    <!--ADD NEW POST ACTIVITY STYLES-->
+
+
+    <style name="add_new_post_back_image_view">
+        <item name="android:layout_width">@dimen/add_new_post_back_image_view_layout_width</item>
+        <item name="android:layout_height">@dimen/add_new_post_back_image_view_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/add_new_post_back_image_view_layout_marginStart</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/back_row_icon</item>
+
+    </style>
+
+    <style name="add_new_post_all_image_view">
+
+        <item name="android:layout_width">@dimen/add_new_post_all_image_view_layout_width</item>
+        <item name="android:layout_height">@dimen/add_new_post_all_image_view_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/add_new_post_all_image_view_layout_marginTop</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/hh</item>
+        <item name="android:background">@drawable/shape_of_circle_image_view</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <style name="add_new_post_header_text_view">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/add_new_post_header_text_view_layout_height</item>
+        <item name="android:layout_marginEnd">@dimen/add_new_post_header_text_view_layout_marginEnd</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/add_new_post_header_text_view_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+
+    </style>
+
+
+
+
+    <style name="add_new_post_spinners_text_views">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/add_new_post_spinners_text_views_padding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/add_new_post_spinners_text_views_text_size</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="add_new_post_spinners">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:elevation">@dimen/add_new_post_spinners_elevation</item>
+        <item name="android:popupElevation">@dimen/add_new_post_spinners_popupElevation</item>
+
+    </style>
+
+
+    <style name="add_new_post_linear_layout_of_spinners_text_views">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/add_new_post_linear_layout_padding</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/shape_of_posts</item>
+    </style>
+
+
+    <style name="add_new_post_linear_layout_of_spinners">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:padding">@dimen/add_new_post_linear_layout_padding</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/shape_of_posts</item>
+        <item name="android:backgroundTint">@color/dark_gray</item>
+    </style>
+
+    <style name="add_new_post_linear_layout_of_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/add_new_post_linear_layout_layout_marginTop</item>
+        <item name="android:padding">@dimen/add_new_post_linear_layout_padding</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/shape_of_posts</item>
+
+
+    </style>
+
+
+
+    <style name="add_new_post_text_views">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- <item name="android:fontFamily">@font/wellfleet</item>-->
+        <item name="android:layout_marginTop">@dimen/add_new_post_text_views_layout_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/add_new_post_text_views_layout_layout_marginLeft</item>
+        <item name="android:textSize">@dimen/add_new_post_text_views_layout_textSize</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+
+    <style name="add_new_post_edit_texts">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/add_new_post_edit_texts_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/add_new_post_edit_texts_layout_marginBottom</item>
+        <item name="android:padding">@dimen/add_new_post_edit_texts_padding</item>
+        <item name="android:background">@drawable/shape_of_contact_us_edit_text</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textColorHint">@color/dark_blue</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <!-- <item name="android:fontFamily">@font/wellfleet</item>-->
+        <item name="android:textSize">@dimen/add_new_post_edit_texts_textSize</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+    <style name="add_new_post_upload_button">
+
+        <item name="android:layout_width">@dimen/add_new_post_upload_button_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/add_new_post_upload_button_layout_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/add_new_post_upload_button_layout_marginBottom</item>
+        <item name="android:padding">@dimen/add_new_post_upload_button_padding</item>
+        <item name="android:textSize">@dimen/add_new_post_upload_button_textSize</item>
+        <item name="android:text">@string/suggestions_and_complainants_button</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily">@font/alfa_slab_one</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:drawableEnd">@color/normalColor</item>
+        <item name="android:background">@drawable/shape_of_buttons</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+
+    </style>
+
+
+    <!--adds management activity-->
+    <style name="adds_management_activity_toolbar_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/light_black</item>
+        <item name="tabIndicatorColor">@color/dark_blue</item>
+        <item name="tabTextColor">@color/black_with_opacity</item>
+        <item name="tabSelectedTextColor">@color/dark_blue</item>
+    </style>
+
+
+    <!--add new add fragment-->
+    <style name="new_add_fragment_image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/new_add_fragment_image_view_layout_height</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/hh</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <style name="modified_title_switches_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/settings_title_switches_style_layout_height</item>
+        <item name="android:padding">@dimen/settings_title_switches_style_padding</item>
+        <item name="si_animation_duration">500</item>
+        <item name="si_disabled_alpha">.5</item>
+        <item name="si_disabled_color">@color/dark_blue_with_opacity</item>
+        <item name="si_tint_color">@color/dark_blue</item>
+        <item name="si_no_dash">false</item>
+        <item name="srcCompat">@drawable/ic_power_button</item>
+
+
+    </style>
+
+    <!-- HOME FRAGMENT POSTS STYLE-->
+
+    <style name="name_of_sections_headers_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/name_of_sections_headers_text_view_marginTop</item>
+
+        <item name="android:background">@color/light_golden</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textSize">@dimen/name_of_sections_headers_text_view_text_size</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="home_recycle_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/home_recycle_view_marginTop</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="layoutManager">androidx.recyclerview.widget.LinearLayoutManager</item>
+        <item name="android:nestedScrollingEnabled">false</item>
+        android:id="@+id/posts_recycle_view"
+    </style>
+
+    <style name="posts_items_header_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/posts_items_header_text_view_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/posts_items_header_text_view_layout_marginTop</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:textSize">@dimen/posts_items_header_text_view_textSize</item>
+        <item name="android:background">@drawable/shape_of_posts</item>
+        <item name="android:backgroundTint">@color/light_gray</item>
+        <item name="android:backgroundTintMode">src_atop</item>
+
+
+    </style>
+
+    <style name="posts_items_image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:src">@drawable/video_image_png1</item>
+        <item name="android:background">@drawable/shape_of_all_image_view</item>
+    </style>
+
+
+    <style name="posts_items_text_views">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/posts_items_text_views_layout_marginTop</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/alegreya_bold_italic</item>
+        <item name="android:textSize">@dimen/posts_items_text_views_textSize</item>
+
+
+    </style>
+
+    <style name="posts_items_new_image_view">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:src">@drawable/new_icon</item>
+    </style>
+
+
+
+    <style name="posts_items_see_more_details_button">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/posts_items_see_more_details_button_layout_height</item>
+        <item name="android:padding">@dimen/posts_items_see_more_details_button_padding</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:text">@string/post_see_more_details</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:textSize">@dimen/posts_items_see_more_details_button_textSize</item>
+        <item name="android:background">@drawable/shape_of_posts</item>
+        <item name="android:drawableEnd">@drawable/more_details_icon</item>
+
+    </style>
+
+    <!--categories fragment style -->
+
+    <style name="categories_fragment_header_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">7dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+
+    </style>
+
+    <!--sections fragment style-->
+
+    <style name="sections_fragment_header_items">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">?android:attr/expandableListPreferredChildPaddingLeft</item>
+        <item name="android:layout_marginRight">?android:attr/expandableListPreferredChildIndicatorRight</item>
+        <item name="android:padding">@dimen/sections_fragment_header_items_padding</item>
+        <item name="android:elevation">@dimen/sections_fragment_header_items_elevation</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/sections_fragment_header_items_textSize</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+        <item name="android:background">@color/light_black</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+
+    </style>
+
+    <style name="sections_fragment_body_items">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/sections_fragment_body_items_layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/sections_fragment_body_items_layout_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/sections_fragment_body_items_layout_marginBottom</item>
+        <item name="android:elevation">@dimen/sections_fragment_body_items_elevation</item>
+        <item name="android:textColor">@color/dark_blue_with_opacity</item>
+        <item name="android:textSize">@dimen/sections_fragment_body_items_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inika</item>
+
+    </style>
+
+    <!--all list activity styles-->
+    <style name="all_list_activity_header_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/all_list_activity_header_text_view_layout_marginTop</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:text">@string/movies_list_message_text_view</item>
+        <item name="android:textSize">@dimen/all_list_activity_header_text_view_textSize</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+
+
+    <style name="all_list_activity_spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/all_list_activity_spinner_layout_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/all_list_activity_spinner_layout_marginBottom</item>
+        <item name="android:layout_marginStart">@dimen/all_list_activity_spinner_marginStart</item>
+        <item name="android:layout_marginEnd">@dimen/all_list_activity_spinner_marginEnd</item>
+        <item name="android:padding">@dimen/all_list_activity_spinner_padding</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:backgroundTint">@color/light_gray</item>
+        <item name="android:elevation">@dimen/all_list_activity_spinner_elevation</item>
+        <item name="android:popupElevation">@dimen/all_list_activity_spinner_popupElevation</item>
+
+    </style>
+
+    <style name="all_list_activity_list_items_all_image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/all_list_activity_list_items_all_image_view_layout_height</item>
+        <item name="android:background">@drawable/shape_of_all_image_view</item>
+        <item name="android:src">@drawable/vidio_icon</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="all_list_activity_list_items_name_of_all_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/all_list_activity_list_items_name_of_all_text_view_layout_marginTop</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/all_list_activity_list_items_name_of_all_text_view_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/alegreya_bold_italic</item>
+
+    </style>
+
+    <style name="all_list_activity_list_items_year_of_all_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/all_list_activity_list_items_year_of_all_text_view_marginBottom</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/all_list_activity_list_items_year_of_all_text_view_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+
+    </style>
+
+    <style name="all_list_activity_load_more_progress_bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:background">@color/light_black</item>
+
+
+    </style>
+
+    <style name="all_list_activity_reload_image_view">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:src">@drawable/reload</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+    <!--ABOUT ALL ACTIVITY-->
+
+    <style name="about_all_activity_image_of_all">
+
+        <item name="android:layout_width">@dimen/about_all_activity_image_of_all_layout_width</item>
+        <item name="android:layout_height">@dimen/about_all_activity_image_of_all_layout_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/shape_of_all_image_view</item>
+
+    </style>
+
+    <style name="about_all_activity_name_of_all_text_view">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/about_all_activity_name_of_all_text_view_textSize</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/faster_one</item>
+
+    </style>
+
+    <style name="about_all_activity_category_of_all_text_view">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">@dimen/about_all_activity_category_of_all_text_view_textSize</item>
+        <item name="android:textColor">@color/dark_blue_with_opacity</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+
+    </style>
+
+
+
+    <style name="about_all_activity_seasons_of_all_text_view_">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:fontFamily">@font/alegreya_bold_italic</item>
+
+    </style>
+
+    <style name="about_all_activity_story_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/about_all_activity_story_text_view_padding</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:background">@drawable/shape_of_contact_us_edit_text</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+    </style>
+
+    <style name="about_all_activity_edit_texts">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/about_all_activity_edit_texts_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/about_all_activity_edit_texts_layout_marginBottom</item>
+        <item name="android:padding">@dimen/about_all_activity_edit_texts_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/shape_of_contact_us_edit_text</item>
+        <item name="android:hint">@string/about_all_activity_comment_edit_text_hint</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textColorHint">@color/dark_blue</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+        <item name="android:fontFamily">@font/inika</item>
+        <item name="android:textSize">@dimen/about_all_activity_edit_texts_textSize</item>
+        <item name="android:inputType">text</item>
+        <item name="android:imeOptions">actionDone</item>
+
+    </style>
+
+
+    <style name="about_all_activity_show_and_hidden_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/about_all_activity_show_comments_text_views</item>
+        <item name="android:textSize">@dimen/about_all_activity_show_and_hidden_text_view_textSize</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:fontFamily">@font/alfa_slab_one</item>
+
+    </style>
+
+
+    <style name="about_all_activity_card_views">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="cardBackgroundColor">@color/light_black</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:elevation">20dp</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+
+
+    </style>
+
+    <style name="about_all_activity_card_views_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">2dp</item>
+
+    </style>
+
+    <style name="about_all_activity_card_views_inside_views">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginTop">5dp</item>
+
+    </style>
+
+    <style name="about_all_activity_card_views_text_views">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">@dimen/about_all_activity_card_views_text_views_text_size</item>
+    </style>
+
+    <style name="about_all_activity_buttons">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/about_all_activity_buttons_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/about_all_activity_buttons_layout_marginStart</item>
+        <item name="android:layout_marginEnd">@dimen/about_all_activity_buttons_layout_marginEnd</item>
+        <item name="android:padding">@dimen/about_all_activity_buttons_padding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/shape_of_contact_us_edit_text</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+        <item name="android:fontFamily">@font/alfa_slab_one</item>
+        <item name="android:elevation">@dimen/about_all_activity_buttons_elevation</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/about_all_activity_buttons_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+
+
+    <style name="about_all_activity_rating_bar_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:fontFamily">@font/alfa_slab_one</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+
+    </style>
+
+    <style name="about_all_activity_rating_bar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/about_all_activity_rating_bar_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/about_all_activity_rating_bar_layout_marginTop</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:secondaryProgressTint">@color/dark_blue</item>
+        <item name="android:background">@drawable/shape_of_contact_us_edit_text</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+        <item name="android:focusable">false</item>
+
+    </style>
+
+    <style name="about_all_activity_comments_items">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginStart">@dimen/about_all_activity_comments_items_layout_marginStart</item>
+        <item name="android:textSize">@dimen/about_all_activity_comments_items_textSize</item>
+        <item name="android:fontFamily">@font/inika</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <!--evaluation all -->
+    <style name="evaluation_all_activity_header_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/evaluation_all_activity_header_text_view_layout_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/evaluation_all_activity_header_text_view_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+        <item name="android:background">@color/light_black</item>
+    </style>
+
+    <!--watching list styles-->
+    <style name="watching_list_fragment_have_not_added_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/watching_list_no_items</item>
+        <item name="android:textSize">@dimen/watching_list_fragment_have_not_added_text_view_textSize</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+    <style name="watching_list_fragment_counter_card_view">
+        <item name="android:layout_width">@dimen/watching_list_fragment_counter_card_view_layout_width</item>
+        <item name="android:layout_height">@dimen/watching_list_fragment_counter_card_view_layout_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@color/light_black</item>
+        <item name="cardBackgroundColor">@color/light_black</item>
+        <item name="cardCornerRadius">@dimen/watching_list_fragment_counter_card_view_cardCornerRadius</item>
+        <item name="cardElevation">@dimen/watching_list_fragment_counter_card_view_cardElevation</item>
+
+    </style>
+
+    <style name="watching_list_fragment_counter_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/watching_list_fragment_counter_text_view_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/bangers</item>
+        <item name="android:background">@color/light_gray</item>
+
+    </style>
+
+    <style name="watching_list_fragment_name_of_all_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/watching_list_fragment_name_of_all_text_view_layout_marginTop</item>
+        <item name="android:padding">@dimen/watching_list_fragment_name_of_all_text_view_padding</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/watching_list_fragment_name_of_all_text_view_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inika</item>
+        <item name="android:elevation">@dimen/watching_list_fragment_name_of_all_text_view_elevation</item>
+
+    </style>
+
+    <style name="watching_list_fragment_session_of_all_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/watching_list_fragment_session_of_all_text_view_padding</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/watching_list_fragment_session_of_all_text_view_textSize</item>
+        <item name="android:fontFamily">@font/devonshire</item>
+        <item name="android:visibility">visible</item>
+
+
+    </style>
+
+    <style name="watching_list_fragment_check_box">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/watching_list_fragment_check_box_layout_marginEnd</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+
+
+
+    <!--search fragment -->
+
+    <style name="search_fragment_radio_buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:background">@color/light_black</item>
+    </style>
+
+    <!--settings fragment -->
+    <style name="settings_title_text_views_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/settings_title_text_views_style_layout_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/settings_title_text_views_style_textSize</item>
+        <item name="android:textColor">@color/dark_black</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">@font/alfa_slab_one</item>
+    </style>
+
+
+
+    <style name="settings_title_switches_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/settings_title_switches_style_layout_height</item>
+        <item name="android:padding">@dimen/settings_title_switches_style_padding</item>
+        <item name="si_animation_duration">500</item>
+        <item name="si_disabled_alpha">.5</item>
+        <item name="si_disabled_color">@color/light_gray</item>
+        <item name="si_tint_color">@color/light_gray</item>
+        <item name="si_no_dash">false</item>
+
+    </style>
+
+    <!--base chatting activity -->
+    <style name="base_chatting_activity_user_image_view">
+        <item name="android:layout_width">@dimen/base_chatting_activity_user_image_view_layout_width</item>
+        <item name="android:layout_height">@dimen/base_chatting_activity_user_image_view_layout_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:src">@drawable/user_image</item>
+
+    </style>
+
+    <style name="base_chatting_activity_user_name_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/base_chatting_activity_user_name_text_view_layout_marginStart</item>
+        <item name="android:padding">@dimen/base_chatting_activity_user_name_text_view_padding</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/base_chatting_activity_user_name_text_view_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+
+    </style>
+
+    <style name="base_chatting_activity_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/base_chatting_activity_edit_text_layout_marginStart</item>
+        <item name="android:padding">@dimen/base_chatting_activity_edit_text_padding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:textSize">@dimen/base_chatting_activity_edit_text_size</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+        <item name="android:hint">@string/base_chatting_activity_edit_text_hint</item>
+        <item name="android:imeOptions">flagNavigateNext</item>
+
+    </style>
+
+    <style name="base_chatting_activity_image_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/base_chatting_activity_image_button_layout_marginStart</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:src">@drawable/icon_send_2</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="base_chatting_items_left_text_view">
+        <item name="android:layout_width">@dimen/base_chatting_items_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/base_chatting_items_layout_margin</item>
+        <item name="android:padding">@dimen/base_chatting_items_padding</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textSize">@dimen/base_chatting_items_text_size</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+        <item name="android:background">@drawable/shape_of_base_chatting_left</item>
+
+    </style>
+
+    <style name="base_chatting_items_right_text_view">
+        <item name="android:layout_width">@dimen/base_chatting_items_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/base_chatting_items_layout_margin</item>
+        <item name="android:padding">@dimen/base_chatting_items_padding</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/base_chatting_items_text_size</item>
+        <item name="android:fontFamily">@font/inika_bold</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:background">@drawable/shape_of_base_chatting_right</item>
+
+    </style>
+
+
+
+
+    <!--contact us styles-->
+    <style name="contact_us_image_views">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_marginTop">@dimen/contact_us_image_views_layout_margin_top</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/final_logo_dark_mode</item>
+
+    </style>
+
+    <style name="contact_us_text_views">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:layout_marginStart">@dimen/contact_us_style_text_views_layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/contact_us_style_text_views_layout_margin_top</item>
+        <item name="android:textSize">@dimen/contact_us_style_text_views_text_size</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="contact_us_input_text_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <!-- <item name="android:fontFamily">@font/wellfleet</item>-->
+        <item name="startIconTint">@color/dark_blue</item>
+        <item name="hintAnimationEnabled">true</item>
+        <item name="hintEnabled">false</item>
+        <item name="passwordToggleTintMode">src_in</item>
+
+    </style>
+
+    <style name="contact_us_edit_texts">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/contact_us_style_edit_text_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/contact_us_style_edit_text_layout_marginBottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textColorHint">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/contact_us_style_edit_text_text_size</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:background">@drawable/shape_of_contact_us_edit_text</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+
+    </style>
+
+
+
+    <!--suggestions_and_complainants style-->
+
+    <style name="suggestions_and_complainants_toolbar_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/dark_blue</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabTextColor">@color/black_with_opacity</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+
+    <style name="suggestions_and_complainants_card_views">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/suggestions_and_complainants_card_views_layout_marginBottom</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="cardCornerRadius">@dimen/suggestions_and_complainants_card_views_cardCornerRadius</item>
+        <item name="android:elevation">@dimen/suggestions_and_complainants_card_views_elevation</item>
+        <item name="cardElevation">@dimen/suggestions_and_complainants_card_views_cardElevation</item>
+        <item name="cardBackgroundColor">@color/light_black</item>
+
+
+    </style>
+
+    <style name="suggestions_and_complainants_image_view">
+        <item name="android:layout_width">@dimen/suggestions_and_complainants_image_view_layout_width</item>
+        <item name="android:layout_height">@dimen/suggestions_and_complainants_image_view_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suggestions_and_complainants_image_view_layout_marginTop</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:elevation">@dimen/suggestions_and_complainants_image_view_elevation</item>
+        <item name="android:background">@drawable/shape_of_circle_image_view</item>
+    </style>
+
+
+
+    <style name="suggestions_and_complainants_messages">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/suggestions_and_complainants_messages_layout_marginTop</item>
+        <item name="android:textSize">@dimen/suggestions_and_complainants_messages_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inika</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+
+    <style name="suggestions_and_complainants_edit_text">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/suggestions_and_complainants_edit_text_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suggestions_and_complainants_edit_text_layout_marginTop</item>
+        <item name="android:textSize">@dimen/suggestions_and_complainants_edit_text_text_size</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textColorHint">@color/dark_blue</item>
+        <item name="android:fontFamily">@font/wellfleet</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/shape_of_contact_us_edit_text</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+    </style>
+
+    <style name="suggestions_and_complainants_buttons">
+
+        <item name="android:layout_width">@dimen/suggestions_and_complainants_buttons_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/suggestions_and_complainants_buttons_layout_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/suggestions_and_complainants_buttons_layout_marginBottom</item>
+        <item name="android:padding">@dimen/suggestions_and_complainants_buttons_layout_padding</item>
+        <item name="android:textSize">@dimen/suggestions_and_complainants_buttons_text_size</item>
+        <item name="android:text">@string/suggestions_and_complainants_button</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily">@font/alfa_slab_one</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:drawableEnd">@drawable/ic_menu_send</item>
+        <item name="android:background">@drawable/shape_of_buttons</item>
+        <item name="android:backgroundTint">@color/light_black</item>
+
+    </style>
+
+
+    <style name="suggestions_and_complainants_recycle_view_user_name_text_view">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/suggestions_and_complainants_recycle_view_user_name_text_view_textSize</item>
+        <item name="android:fontFamily">@font/inika</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="suggestions_and_complainants_recycle_view_date_text_view">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/suggestions_and_complainants_recycle_view_date_text_view_textSize</item>
+        <item name="android:textColor">@color/dark_blue_with_opacity</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="suggestions_and_complainants_recycle_view_complainant_text_view">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/suggestions_and_complainants_recycle_view_complainant_text_view_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/suggestions_and_complainants_recycle_view_complainant_text_view_margin_start</item>
+        <item name="android:textSize">@dimen/suggestions_and_complainants_recycle_view_complainant_text_view_textSize</item>
+        <item name="android:fontFamily">@font/bangers</item>
+        <item name="android:textColor">@color/light_gray</item>
+
+    </style>
+
+</resources>

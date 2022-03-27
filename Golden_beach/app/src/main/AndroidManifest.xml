@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alazraq.alkhayat.goldenbeach">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name=".helper_classes.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.Modified_activity"
+            android:theme="@style/no_action_bar"
+
+            ></activity>
+        <activity
+            android:name=".activities.Add_comment_dialog"
+            android:theme="@style/activity_as_dialog" />
+        <activity
+            android:name=".activities.Chang_language_dialog"
+            android:theme="@style/activity_as_dialog"
+
+            />
+
+        <service
+            android:name=".services.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".activities.Check_administrator_dialog"
+            android:theme="@style/activity_as_dialog" />
+        <activity
+            android:name=".activities.Show_image_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.Base_complainants_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.Base_suggestions_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.Search_method_dialog"
+            android:theme="@style/activity_as_dialog" />
+        <activity
+            android:name=".activities.No_internet_connection_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.Edit_posts_activity"
+            android:label="@string/edit_post_activity_header_text_view"
+        />
+
+        <activity
+            android:name=".activities.Edit_adds_activity"
+            android:label="@string/edit_adds_activity_header_text_view"
+        />
+        <activity
+            android:name=".activities.Evaluation_dialog"
+            android:theme="@style/activity_as_dialog" />
+        <activity
+            android:name=".activities.Base_chatting_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.Splash_activity"
+            android:theme="@style/no_action_bar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Testing_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.Adds_management_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.Admin_control_panel_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.Add_new_post_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.All_list_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.About_all_activity"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.Signup_condations_activity"
+            android:theme="@style/activity_as_dialog" />
+        <activity
+            android:name=".activities.Signup_activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/no_action_bar" />
+        <activity
+            android:name=".activities.Login_activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/no_action_bar" />
+        <activity android:name=".testing.Testing" >
+
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/no_action_bar" >
+
+
+        </activity>
+
+        <service
+            android:name=".helper_classes.Splash_service"
+            android:exported="false"
+        />
+
+        <service
+            android:name=".services.Chatting_service"
+            android:exported="false"
+        />
+        <service
+            android:name=".services.Modifies_service"
+            android:exported="false"
+        />
+
+        <receiver
+            android:name=".broad_cast_resivers.Network_connection_broadcaster_receiver"
+            android:exported="false"
+        >
+
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

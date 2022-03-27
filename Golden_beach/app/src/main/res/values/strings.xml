@@ -1,0 +1,663 @@
+<resources>
+    <string name="app_name">Golden beach</string>
+    <string name="admin_control_panel_activity_label">ADMIN CONTROL PANEL</string>
+    <string name="adds_management_activity_label">ADDS MANAGEMENT</string>
+    <string name="modified_activity_label">MODIFIED MANAGEMENT</string>
+
+
+
+    <!--labels of all list activity-->
+    <string name="movies_list">MOVIES LIST</string>
+    <string name="series_list">SERIES LIST</string>
+    <string name="animations_list">ANIMATIONS LIST</string>
+    <string name="plays_list">PLAYS LIST</string>
+    <string name="documentaries_list">DOCUMENTARIES LIST</string>
+    <string name="others_list">OTHERS LIST</string>
+    <string name="games_list">GAMES LIST</string>
+
+
+    <!--toast strings-->
+
+    <string name="check_input_all_date">PLEASE CHECK INPUT ALL DATA </string>
+    <string name="add_the_image">PLEASE ADD AN IMAGE TO BE SHOWN </string>
+
+    <string name="login_activity_login_successful">LOGIN SUCCESSFUL</string>
+    <string name="login_activity_wrong_user_name_or_password">ERROR IN USER NAME OR PASSWORD..</string>
+    <string name="sign_up_activity_user_name_eight_car">THE USER NAME SHOULD BE MORE OR EQUAL 8 CHARACTERS</string>
+    <string name="sign_up_activity_password_eight_car">THE PASSWORD SHOULD BE MORE OR EQUAL 8 CHARACTERS</string>
+    <string name="sign_up_activity_password_are_not_same">THE PASSWORD ARE NOT SAME </string>
+    <string name="write_your_suggestion_to_send">PLEASE WRITE YOUR SUGGESTION FIRST TO BE SENT</string>
+    <string name="write_your_complainant_to_send">PLEASE WRITE YOUR COMPLAINANT FIRST TO BE SENT</string>
+
+    <string name="name_already_exist">USER NAME ALREADY USED</string>
+    <string name="email_already_exist">E-MAIL ALREADY USED</string>
+    <string name="registration_successful">REGISTRATION SUCCESSFUL</string>
+    <string name="already_fond">THE ITEM YOU INSERTED IS ALREADY FOND WITH THE SAME SEASON</string>
+    <string name="an_error_occurred">AN ERROR OCCURRED DURING THE EDIT PLEASE TRY AGAIN LATER ..!</string>
+    <string name="required_fields_is_missing">REQUIRED FIELDS IS MISSING</string>
+    <string name="adding_successful">ADDING SUCCESSFUL</string>
+    <string name="uploading_successful">UPLOADING SUCCESSFUL</string>
+    <string name="deleted_successfully">DELETED SUCCESSFULLY</string>
+    <string name="added_comment_successfully">ADDED COMMENT SUCCESSFULLY</string>
+    <string name="updating_successful">UPDATING SUCCESSFUL</string>
+
+    <string name="sending_successfully">SENDING SUCCESSFULLY</string>
+
+
+    <string name="about_all_activity_added_to_watching_list_successfully">ADDED SUCCESSFULLY</string>
+    <string name="about_all_activity_added_to_watching_list_already_found">MAY ALREADY EXISTS IN WATCHING LIST</string>
+
+    <string name="watching_list_no_item_selected">NO ITEM SELECTED</string>
+    <string name="watching_list_deleted_items">ITEMS DELETED SUCCESSFULLY</string>
+    <string name="watching_list_deleted_item">ITEM DELETED SUCCESSFULLY</string>
+    <string name="watching_list_sent_items">ITEMS HAVE BEEN SENT SUCCESSFULLY</string>
+    <string name="watching_list_sent_item">ITEM HAS BEEN SENT SUCCESSFULLY</string>
+    <string name="watching_list_you_are_the_admin">YOU ARE THE ADMIN</string>
+
+    <string name="input_comment">YOU CAN NOT COMMENT AN EMPTY</string>
+
+    <string name="input_the_key_word">PLEASE INPUT ANY KYE WORD</string>
+    <string name="input_the_year">PLEASE INPUT ANY YEAR</string>
+
+    <string name="you_have_to_input_evaluation_value">YOU HAVE TO INPUT VALUE </string>
+    <string name="input_evaluation_insert_successful_message">RATED SUCCESSFUL</string>
+    <string name="input_evaluation_update_successful_message">RATED CHANGED SUCCESSFULLY</string>
+
+    <string name="this_feature_is_not_available_now">THIS FEATURE IS NOT AVAILABLE NOW ..!</string>
+
+    <string name="no_more_comments">NO MORE COMMENTS</string>
+    <string name="no_more_suggestions">NO MORE SUGGESTIONS</string>
+    <string name="no_more_complainants">NO MORE COMPLAINANTS</string>
+    <string name="no_more_items">NO MORE ITEMS</string>
+
+    <string name="not_found_any_user">THERE ARE NO USERS</string>
+
+    <!--splash activity strings-->
+    <string name="splash_activity_name_of_shop_text_view">GOLDEN BEACH</string>
+    <string name="splash_activity_copy_right_text_view">ALL COPY RIGHT \u00a9 RESERVED TO GOLDEN BEACH STORES</string>
+
+    <!--control panel activity text views -->
+    <string name="control_panel_activity_posts_managements_text_view">POSTS MANAGEMENT</string>
+    <string name="control_panel_activity_adds_managements_text_view">ADDS MANAGEMENT</string>
+    <string name="control_panel_activity_modified_managements_text_view">MODIFIED MANAGEMENT</string>
+
+
+    <string name="add_new_post_activity_header_text_view">NEW POST</string>
+    <string name="add_new_post_activity_section_text_view">SECTION</string>
+    <string name="add_new_post_activity_brand_of_section_text_view">BRAND OF SECTION</string>
+    <string name="add_new_post_activity_category_view">CATEGORY</string>
+    <string name="add_new_post_activity_name_text_view">NAME</string>
+    <string name="add_new_post_activity_story_text_view">STORY</string>
+    <string name="add_new_post_activity_trailer_text_view">TRAILER</string>
+    <string name="add_new_post_activity_year_text_view">YEAR</string>
+    <string name="add_new_post_activity_session_text_view">SEASON</string>
+    <string name="add_new_post_activity_upload_button">UPLOAD</string>
+
+    <string name="add_new_post_activity_add_new_post_progress_dialog_title">UPLOADING THE POST ...</string>
+    <string name="add_new_post_activity_add_new_post_progress_dialog_message">PLEASE WAIT ...</string>
+
+    <string name="edit_post_activity_header_text_view">UPDATE POST</string>
+    <string name="edit_post_activity_upload_button">UPDATE</string>
+
+    <string name="edit_adds_activity_header_text_view">UPDATE ADD</string>
+
+    <string name="adds_management_activity_new_add_title">NEW ADD</string>
+    <string name="adds_management_activity_all_adds_title">ALL ADDS</string>
+
+    <string name="there_are_no_adds">THERE ARE NO ADDS</string>
+    <string name="all_adds_fragment_no_adds_text_view">YOU HAVE NOT ADDED ADDS YET</string>
+
+    <string name="new_add_fragment_new_add_progress_dialog_title">UPLOADING THE ADD ...</string>
+    <string name="new_add_fragment_new_add_progress_dialog_message">PLEASE WAIT ...</string>
+
+    <string name="all_adds_fragment_get_all_adds_progress_dialog_title">GETTING ADDS ...</string>
+    <string name="all_adds_fragment_get_all_adds_progress_dialog_message">PLEASE WAIT ...</string>
+
+    <string name="all_adds_fragment_delete_add_progress_dialog_title">DELETING ...</string>
+    <string name="all_adds_fragment_delete_add_progress_dialog_message">DELETING THE ADD ...</string>
+
+    <string name="all_adds_fragment_management_the_add_alert_dialog_title">EDIT/DELETE THE ADD</string>
+    <string name="all_adds_fragment_management_the_add_alert_dialog_message">PLEASE CHOSE A TASK</string>
+    <string name="all_adds_fragment_management_the_add_alert_dialog_positive_button">EDIT</string>
+    <string name="all_adds_fragment_management_the_add_alert_dialog_negative_button">DELETE</string>
+
+    <string name="all_adds_fragment_sure_delete_the_add_alert_dialog_message">YOU WANT TO REMOVE THE ADD</string>
+    <string name="all_adds_fragment_sure_delete_the_add_alert_dialog_positive_button">REMOVE</string>
+    <string name="all_adds_fragment_sure_delete_the_add_alert_dialog_negative_button">CANCEL</string>
+
+    <string name="edit_adds_activity_owner_name_text_view">THE NAME OF OWNER</string>
+    <string name="edit_adds_activity_description_text_view">DESCRIPTION</string>
+    <string name="edit_adds_activity_update_text_view">UPDATE</string>
+
+    <!--LOGIN AND SIGN UP ACTIVITIES-->
+    <!--LOGIN ACTIVITY-->
+    <string name="login_activity_progress_dialog_title">LOGGING IN ...</string>
+    <string name="login_activity_progress_dialog_message">PLEASE WAIT UNTIL CHECKING</string>
+    <string name="login_activity_user_name_hint">USER NAME</string>
+    <string name="login_activity_password_hint">PASSWORD</string>
+    <string name="login_activity_forget_password_text_view">DID YOU FORGET YOUR PASSWORD...?</string>
+    <string name="login_activity_login_button">LOGIN</string>
+    <string name="login_activity_message_text_view">DON\'\T YOU HAVE AN ACCOUNT...?</string>
+    <string name="login_activity_create_text_view">CREATE</string>
+    <string name="login_activity_notification_message">WELCOME MR. </string>
+
+
+    <!--SIGN UP ACTIVITY-->
+    <string name="sign_up_activity_progress_dialog_title">SIGNING UP</string>
+    <string name="sign_up_activity_progress_dialog_message">PLEASE WAIT UNTIL CHECKING</string>
+    <string name="signup_activity_full_name_hint">FULL NAME</string>
+    <string name="signup_activity_user_name_hint">USER NAME</string>
+    <string name="signup_activity_email_hint">E-MAIL</string>
+    <string name="signup_activity_password_hint">PASSWORD</string>
+    <string name="signup_activity_confirm_password_hint">CONFIRM PASSWORD</string>
+    <string name="signup_activity_signup_button">SIGN UP</string>
+    <string name="signup_activity_message_text_view">DO YOU HAVE AN ACCOUNT...?</string>
+    <string name="signup_activity_login_text_view">LOGIN</string>
+
+
+    <!--LOGIN ALERT DIALOG STRINGS-->
+    <string name="login_alert_dialog_title">LOGIN IN</string>
+    <string name="login_alert_dialog_message">YOU HAVE TO LOGIN FIRST ... </string>
+    <string name="login_alert_dialog_ok_button">LOGIN</string>
+    <string name="login_alert_dialog_cancel_button">CANCEL</string>
+
+    <string name="sign_up_condations_title_text_view">SIGN UP CONDITIONS</string>
+    <string name="sign_up_condations_first_message">THE USER FULL NAME SHOULD BE CLEAR TO COMMUNICATE WITH ADMIN . </string>
+    <string name="sign_up_condations_second_message"> YOU SHOULD INSERT RIGHT E-MAIL TO GET BACK YOUR PASSWORD IF YOU MISSED IT . </string>
+    <string name="sign_up_condations_third_message">THE CONTENT IS PROPRATE FOR THAT HOW IS MORE THAN 10 YEARS OLD .</string>
+    <string name="sign_up_condations_fourth_message">THE PASSWORD MUST BE MORE THAN 8 CHARACTERS .</string>
+    <string name="sign_up_condations_button">CONTINUE</string>
+
+
+    <!--_____________________________________________________________________________________-->
+
+    <!--HOME FRAGMENT STRINGS-->
+    <string name="post_session">SEASON : </string>
+    <string name="post_year">YEAR : </string>
+    <string name="post_section">SECTION : </string>
+    <string name="post_category">CATEGORY : </string>
+    <string name="post_see_more_details">SEE MORE DETAILS</string>
+
+    <string name="home_fragment_posts_dialog_title">FETCHING</string>
+    <string name="home_fragment_posts_dialog_message">PLEASE WAIT UNTIL FETCHING THE POSTS</string>
+    <string name="home_fragment_we_have_maintenance_section">WE HAVE MAINTENANCE SECTION</string>
+
+
+    <!--_____________________________________________________________________________________-->
+
+    <!--SECTIONS FRAGMENT LIST VIEW ITEMS -->
+    <!--MOVIES ITEMS-->
+
+    <string name="sections_fragment__expandable_list_view_movies_title">MOVIES</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_foreign">FOREIGN</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_arabic">ARABIC</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_indian">INDIAN</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_korean">KOREAN</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_japanese">JAPANESE</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_chinese">CHINESE</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_thai">THAI</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_Indonesian">INDONESIAN</string>
+
+
+    <!--SERIES ITEMS-->
+    <string name="sections_fragment__expandable_list_view_series_title">SERIES</string>
+    <string name="sections_fragment__expandable_list_view_series_body_foreign">FOREIGN</string>
+    <string name="sections_fragment__expandable_list_view_series_body_arabic">ARABIC</string>
+    <string name="sections_fragment__expandable_list_view_series_body_indian">INDIAN</string>
+    <string name="sections_fragment__expandable_list_view_series_body_turkish">TURKISH</string>
+    <string name="sections_fragment__expandable_list_view_series_body_korean">KOREAN</string>
+    <string name="sections_fragment__expandable_list_view_series_body_japanese">JAPANESE</string>
+    <string name="sections_fragment__expandable_list_view_series_body_chinese">CHINESE</string>
+    <string name="sections_fragment__expandable_list_view_series_body_thai">THAI</string>
+    <string name="sections_fragment__expandable_list_view_series_body_Indonesian">INDONESIAN</string>
+    <string name="sections_fragment__expandable_list_view_series_body_arabic_cartons">ARABIC CARTONS</string>
+
+
+    <string name="sections_fragment__expandable_list_view_animation_title">ANIMATIONS</string>
+    <string name="sections_fragment__expandable_list_view_animation_body_series">SERIES</string>
+    <string name="sections_fragment__expandable_list_view_animation_body_movies">MOVIES</string>
+
+    <string name="sections_fragment__expandable_list_view_play_title">PLAYS</string>
+    <string name="sections_fragment__expandable_list_view_play_body_plays">PLAYS</string>
+
+    <string name="sections_fragment__expandable_list_view_documentaries_title">DOCUMENTARIES</string>
+    <string name="sections_fragment__expandable_list_view_documentaries_body_documentaries">DOCUMENTARIES</string>
+
+    <string name="sections_fragment__expandable_list_view_others_title">OTHERS</string>
+    <string name="sections_fragment__expandable_list_view_others_body_others">OTHERS</string>
+
+    <string name="sections_fragment__expandable_list_view_games_title">GAMES</string>
+    <string name="sections_fragment__expandable_list_view_games_body_games">GAMES</string>
+
+
+    <!--MOVIES LIST ITEMS -->
+
+    <!--ALL LIST DIALOG-->
+
+    <string name="all_list_get_all_dialog_title">FETCHING</string>
+    <string name="all_list_get_all_dialog_message">PLEASE WAIT ... </string>
+    <string name="all_list_delete_post_dialog_title">DELETING ...</string>
+    <string name="all_list_delete_post_dialog_message">PLEASE WAIT ... </string>
+
+    <string name="all_list_management_the_post_alert_dialog_title">EDIT/DELETE THE POSTS</string>
+    <string name="all_list_management_the_post_alert_dialog_message">PLEASE CHOSE A TASK</string>
+    <string name="all_list_management_the_post_alert_dialog_positive_button">EDIT</string>
+    <string name="all_list_management_the_post_alert_dialog_negative_button">REMOVE</string>
+
+    <string name="all_list_sure_delete_the_post_alert_dialog_message">YOU WANT TO REMOVE THE POST </string>
+    <string name="all_list_sure_delete_the_post_alert_dialog_positive_button">REMOVE</string>
+    <string name="all_list_sure_delete_the_post_alert_dialog_negative_button">CANCEL</string>
+
+
+    <!--MOVIES LIST TEXT VIEWS -->
+
+    <string name="movies_list_message_text_view">TAP ON SPINNER FOR CHOOSING THE CATEGORY </string>
+    <string name="movies_list_modern_movies_text_view">NEW MOVIES</string>
+    <string name="movies_list_modern_series_text_view">NEW SERIES</string>
+    <string name="movies_list_modern_anime_text_view">NEW ANIMATIONS</string>
+    <string name="movies_list_modern_plays_text_view">NEW PLAYS</string>
+    <string name="movies_list_modern_documentaries_text_view">NEW DOCUMENTARIES</string>
+    <string name="movies_list_modern_games_text_view">NEW GAMES</string>
+    <string name="movies_list_modern_just_text_view">NEW</string>
+
+
+    <string name="movies_list_others_text_view">OTHERS</string>
+
+    <!--MOVIES LIST SPINNER ITEMS -->
+
+
+    <!--spinners arrays-->
+
+    <!--NAME OF SECTIONS ITEMS-->
+
+    <string name="animations_text_view">ANIMATIONS</string>
+    <string name="all_movies">ALL MOVIES</string>
+    <string name="all_series">ALL SERIES</string>
+    <string name="all_animations">ALL ANIMATIONS</string>
+
+
+    <string name="section_movies">MOVIES</string>
+    <string name="section_series">SERIES</string>
+    <string name="section_animation_movies_translated">MOVIES TRANSLATED</string>
+    <string name="section_animation_movies_dabbed">MOVIES DABBED</string>
+    <string name="section_animation_series_translated">SERIES TRANSLATED</string>
+    <string name="section_animation_series_dabbed">SERIES DABBED</string>
+    <string name="section_plays">PLAYS</string>
+    <string name="section_documentaries">DOCUMENTARIES</string>
+    <string name="section_others">OTHERS</string>
+    <string name="section_games">GAMES</string>
+
+
+    <!--NAME OF BRAND OF SECTIONS ITEMS-->
+    <string name="brand_of_section_foreign">FOREIGN</string>
+    <string name="brand_of_section_arabic">ARABIC</string>
+    <string name="brand_of_section_indian">INDIAN</string>
+    <string name="brand_of_section_turkish">TURKISH</string>
+    <string name="brand_of_section_korean">KOREAN</string>
+    <string name="brand_of_section_japanese">JAPANESE</string>
+    <string name="brand_of_section_chinese">CHINESE</string>
+    <string name="brand_of_section_thai">THAI</string>
+    <string name="brand_of_section_Indonesian">INDONESIAN</string>
+    <string name="brand_of_section_arabic_cartons">ARABIC CARTONS</string>
+    <string name="brand_of_section_animations_movies_translated">MOVIES TRANSLATED</string>
+    <string name="brand_of_section_animations_movies_dabbed">MOVIES DABBED</string>
+    <string name="brand_of_section_animations_series_translated">SERIES TRANSLATED</string>
+    <string name="brand_of_section_animations_series_dabbed">SERIES DABBED</string>
+
+    <string name="brand_of_section_plays">PLAYS</string>
+    <string name="brand_of_section_documentaries">DOCUMENTARIES</string>
+    <string name="brand_of_section_others">OTHERS</string>
+    <string name="brand_of_section_games">GAMES</string>
+
+    <!--CATEGORIES ITEMS-->
+
+    <string name="categories_action">ACTION</string>
+    <string name="categories_war">WAR</string>
+    <string name="categories_crime">CRIME</string>
+    <string name="categories_mystery">MYSTERY</string>
+    <string name="categories_adventure">ADVENTURE</string>
+    <string name="categories_horror">HORROR</string>
+    <string name="categories_drama">DRAMA</string>
+    <string name="categories_romantic">ROMANTIC</string>
+    <string name="categories_comedian">COMEDIAN</string>
+    <string name="categories_science_fiction_imogen">SCIENCE FICTION IMOGEN</string>
+    <string name="categories_fantasy">FANTASY</string>
+    <string name="categories_family">FAMILY</string>
+    <string name="categories_history">HISTORY</string>
+    <string name="categories_musical">MUSICAL</string>
+    <string name="categories_sport">SPORT</string>
+    <string name="categories_western">WESTERN</string>
+    <string name="categories_thrilling">THRILLING</string>
+
+    <string name="categories_dabbed">DABBED</string>
+    <string name="categories_translated">TRANSLATED</string>
+
+    <string name="categories_plays">PLAYS</string>
+    <string name="categories_documentaries">DOCUMENTARIES</string>
+    <string name="categories_others">OTHERS</string>
+    <string name="categories_games">GAMES</string>
+
+    <string-array name="sections_array">
+        <item>@string/section_movies</item>
+        <item>@string/section_series</item>
+        <item>@string/animations_text_view</item>
+        <item>@string/section_plays</item>
+        <item>@string/section_documentaries</item>
+        <item>@string/section_others</item>
+        <item>@string/section_games</item>
+    </string-array>
+
+
+    <string-array name="brand_of_sections_array_of_all">
+        <item>@string/brand_of_section_foreign</item>
+        <item>@string/brand_of_section_arabic</item>
+        <item>@string/brand_of_section_indian</item>
+        <item>@string/brand_of_section_turkish</item>
+        <item>@string/brand_of_section_animations_movies_translated</item>
+        <item>@string/brand_of_section_animations_movies_dabbed</item>
+        <item>@string/brand_of_section_animations_series_translated</item>
+        <item>@string/brand_of_section_animations_series_dabbed</item>
+        <item>@string/brand_of_section_plays</item>
+        <item>@string/brand_of_section_documentaries</item>
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_movies">
+        <item>@string/brand_of_section_foreign</item>
+        <item>@string/brand_of_section_arabic</item>
+        <item>@string/brand_of_section_indian</item>
+        <item>@string/brand_of_section_turkish</item>
+        <item>@string/brand_of_section_korean</item>
+        <item>@string/brand_of_section_japanese</item>
+        <item>@string/brand_of_section_chinese</item>
+        <item>@string/brand_of_section_thai</item>
+        <item>@string/brand_of_section_Indonesian</item>
+
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_series">
+        <item>@string/brand_of_section_foreign</item>
+        <item>@string/brand_of_section_arabic</item>
+        <item>@string/brand_of_section_indian</item>
+        <item>@string/brand_of_section_turkish</item>
+        <item>@string/brand_of_section_korean</item>
+        <item>@string/brand_of_section_japanese</item>
+        <item>@string/brand_of_section_chinese</item>
+        <item>@string/brand_of_section_thai</item>
+        <item>@string/brand_of_section_Indonesian</item>
+        <item>@string/brand_of_section_arabic_cartons</item>
+
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_animations">
+        <item>@string/brand_of_section_animations_movies_translated</item>
+        <item>@string/brand_of_section_animations_movies_dabbed</item>
+        <item>@string/brand_of_section_animations_series_translated</item>
+        <item>@string/brand_of_section_animations_series_dabbed</item>
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_plays">
+        <item>@string/brand_of_section_plays</item>
+    </string-array>
+
+
+    <string-array name="brand_of_sections_array_of_documentaries">
+        <item>@string/brand_of_section_documentaries</item>
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_others">
+        <item>@string/brand_of_section_others</item>
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_games">
+        <item>@string/brand_of_section_games</item>
+    </string-array>
+
+    <string-array name="categories_series_and_movies_array">
+        <item>@string/categories_action</item>
+        <item>@string/categories_war</item>
+        <item>@string/categories_crime</item>
+        <item>@string/categories_mystery</item>
+        <item>@string/categories_adventure</item>
+        <item>@string/categories_horror</item>
+        <item>@string/categories_drama</item>
+        <item>@string/categories_romantic</item>
+        <item>@string/categories_comedian</item>
+        <item>@string/categories_science_fiction_imogen</item>
+        <item>@string/categories_fantasy</item>
+        <item>@string/categories_family</item>
+        <item>@string/categories_history</item>
+        <item>@string/categories_musical</item>
+        <item>@string/categories_sport</item>
+        <item>@string/categories_western</item>
+        <item>@string/categories_thrilling</item>
+    </string-array>
+
+
+    <string-array name="categories_animation_series_array">
+        <item>@string/categories_dabbed</item>
+        <item>@string/categories_translated</item>
+    </string-array>
+
+    <string-array name="categories_animation_movies_array">
+        <item>@string/categories_dabbed</item>
+        <item>@string/categories_translated</item>
+    </string-array>
+
+    <string-array name="categories_plays_array">
+        <item>@string/categories_plays</item>
+    </string-array>
+
+    <string-array name="categories_documentaries_array">
+        <item>@string/categories_documentaries</item>
+    </string-array>
+
+    <string-array name="categories_others_array">
+        <item>@string/categories_others</item>
+    </string-array>
+
+    <string-array name="categories_games_array">
+        <item>@string/categories_games</item>
+    </string-array>
+
+    <string-array name="categories_all_array">
+        <item>@string/categories_action</item>
+        <item>@string/categories_drama</item>
+        <item>@string/categories_comedian</item>
+        <item>@string/categories_horror</item>
+        <item>@string/categories_science_fiction_imogen</item>
+        <item>@string/categories_dabbed</item>
+        <item>@string/categories_translated</item>
+        <item>@string/categories_dabbed</item>
+        <item>@string/categories_translated</item>
+        <item>@string/categories_plays</item>
+        <item>@string/categories_documentaries</item>
+        <item>@string/categories_others</item>
+    </string-array>
+
+
+    <!--ABOUT ALL STRINGS -->
+
+    <string name="about_all_activity_seasons_no">SEASONS NO. :</string>
+    <string name="about_all_activity_parts_no">PARTS NO.  :</string>
+
+    <string name="about_all_activity_add_to_watching_list_button">ADD TO WATCHING LIST</string>
+    <string name="about_all_activity_watch_trailer_button">WATCH TRAILER</string>
+    <string name="about_all_activity_comment_text_view">ADD YOUR COMMENT</string>
+    <string name="about_all_activity_comment_edit_text_hint">PLEASE ADD YOUR COMMENT HERE</string>
+    <string name="about_all_activity_comment_button">SUBMIT</string>
+    <string name="about_all_activity_show_comments_text_views">SHOW COMMENTS</string>
+    <string name="about_all_activity_hide_comments_text_views">HIDE COMMENTS</string>
+    <string name="about_all_activity_adding_new_comment_progress_dialog_title">ADDING YOUR COMMENT</string>
+    <string name="comment">COMMENT</string>
+    <string name="trailer">TRAILER</string>
+    <string name="about_all_activity_evaluate_button">RATTING</string>
+    <string name="about_all_activity_cancel_button">CANCEL</string>
+
+    <string name="no_comment">THERE IS NO COMMENT YET</string>
+
+    <!--settings strings-->
+    <string name="settings_fragment_notification_text_view">NOTIFICATIONS</string>
+    <string name="settings_fragment_dark_mode_text_view">DARK MODE</string>
+
+    <string name="language">LANGUAGE</string>
+
+    <string name="chang_language_dialog_header">CHOSE APP LANGUAGE</string>
+    <string name="language_arabic">ARABIC</string>
+    <string name="language_english">ENGLISH</string>
+
+
+    <!--BASE SUGGESTIONS AND COMPLAINANTS FRAGMENT STRINGS  -->
+    <string name="base_suggestion_progress_dialog_of_insert_suggestion_title">INSERTING ...</string>
+    <string name="base_suggestion_progress_dialog_of_insert_suggestion_message">INSERTING YOUR SUGGESTION ...</string>
+    <string name="base_suggestion_progress_dialog_of_get_all_suggestions_title">LOADING ...</string>
+    <string name="base_suggestion_progress_dialog_of_get_all_suggestions__message">LOADING ALL SUGGESTIONS ...</string>
+
+    <string name="base_complainant_progress_dialog_of_insert_complainant_title">INSERTING ...</string>
+    <string name="base_complainant_progress_dialog_of_insert_complainant_message">INSERTING YOUR COMPLAINANT ...</string>
+    <string name="base_complainant_progress_dialog_of_get_all_complainants_title">LOADING ...</string>
+    <string name="base_complainant_progress_dialog_of_get_all_complainants_message">LOADING ALL COMPLAINANTS ...</string>
+
+
+    <!--watching list strings -->
+    <string name="watching_list_no_items">YOU HAVE NOT ADDED ITEMS YET</string>
+    <string name="all_list_sure_delete_the_watching_list_items_alert_dialog_title">CONFIRM</string>
+    <string name="all_list_sure_delete_the_watching_list_items_alert_dialog_message">YOU WANT TO REMOVE ALL THE CHECKED ITEMS</string>
+    <string name="all_list_sure_delete_the_watching_list_items_alert_dialog_positive_button">REMOVE</string>
+    <string name="all_list_sure_delete_the_watching_list_items_alert_dialog_negative_button">CANCEL</string>
+
+    <string name="all_list_sure_send_the_watching_list_items_alert_dialog_title">PLEASE CHOSE THE SENDING METHOD </string>
+    <string name="all_list_sure_send_the_watching_list_items_alert_dialog_message">THE RED BUTTON WILL SEND AND REMOVE THE CHECKED ITEMS , THE GREEN BUTTON WILL JUST SEND THE CHECKED ITEMS </string>
+    <string name="all_list_sure_send_the_watching_list_items_alert_dialog_positive_button">J S</string>
+    <string name="all_list_sure_send_the_watching_list_items_alert_dialog_negative_button">SE RE</string>
+
+
+    <!--search fragment strings -->
+
+    <string name="search_fragment_search_by_title">SEARCH BY :</string>
+    <string name="search_fragment_search_by_name_edit_text_hint">PLEASE INPUT THE NAME HERE ...</string>
+    <string name="search_fragment_search_by_year_edit_text_hint">PLEASE INPUT THE YEAR HERE ...</string>
+    <string name="search_fragment_search_button">SEARCH</string>
+    <string name="search_fragment_more_details_check_box">SEARCH BY MORE DETAILS ELSE</string>
+
+    <string name="search_method_header">CHOSE SEARCH METHOD</string>
+    <string name="search_methods_name">NAME</string>
+    <string name="search_methods_name_with_details">NAME WITH DETAILS</string>
+    <string name="search_methods_year">YEAR</string>
+    <string name="search_methods_year_with_details">YEAR WITH DETAILS</string>
+    <string name="search_methods_evaluation">RATTING</string>
+    <string name="search_methods_evaluation_with_details">RATTING WHIT DETAILS</string>
+
+
+    <!--chatting strings-->
+    <string name="chatting_no_items">CHATTING WILL NOT BE SHOWN BEFORE YOU LOGIN</string>
+
+
+    <!--base chatting strings-->
+    <string name="base_chatting_activity_edit_text_hint"> TYPE YOUR MESSAGE . . .</string>
+
+    <!--system strings-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <!--base menu items strings -->
+    <string name="main_menu_login">LOGIN</string>
+    <string name="main_menu_sign_in">SIGN UP</string>
+    <string name="main_menu_logout">LOG OUT</string>
+
+    <!-- navigation drawer title of groups items strings -->
+    <string name="menu_title_communication">COMMUNICATION</string>
+    <string name="menu_title_services">SERVICES</string>
+    <string name="menu_title_tools">TOOLS</string>
+    <string name="menu_title_others">OTHERS</string>
+
+
+    <!-- navigation drawer items strings -->
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_categories">CATEGORIES</string>
+    <string name="menu_categories2">CATEGORIES2</string>
+    <string name="menu_watching_list">WATCHING LIST</string>
+    <string name="menu_search">SEARCH</string>
+    <string name="menu_maintenance">MAINTENANCE</string>
+    <string name="menu_accessories">ACCESSORIES</string>
+    <string name="menu_offers">OFFERS</string>
+    <string name="menu_settings">SETTINGS</string>
+    <string name="menu_suggestions">FEED BACK</string>
+    <string name="menu_about_app">ABOUT APP</string>
+    <string name="menu_contact_us">CONTACT US</string>
+    <string name="menu_about_developer">ABOUT DEVELOPER</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">SHARE</string>
+    <string name="menu_send">CHATTING</string>
+
+
+    <!--contact us strings-->
+    <!--text view -->
+    <string name="contact_us_manager_name_text_view">MANAGER NAME</string>
+    <string name="contact_us_phone_number_text_view">PHONE NUMBER</string>
+    <string name="contact_us_email_text_view">E-MAIL</string>
+    <string name="contact_us_place_text_view">PLACE</string>
+
+
+    <string name="contact_us_manager_name_edit_text"> Waheeb Al-Rufaid</string>
+    <string name="contact_us_phone_number_edit_text">711 251 145</string>
+    <string name="contact_us_email_edit_text">goldeanbeachye@gmail.com</string>
+    <string name="contact_us_place_edit_text">SANA\'\A AL-RAQAS ST. INFRONT OF ABO HUSSAM CENTER</string>
+
+
+    <!--suggestions and complainants strings-->
+
+    <!--suggestions-->
+    <string name="suggestions_title">SUGGESTIONS</string>
+    <string name="suggestions_message">OUR DEAR CUSTOMER YOUR SUGGESTION IS VERY IMPORTANT FOR US </string>
+    <string name="suggestions_hint">PLEASE WRITE YOUR SUGGESTION HERE</string>
+    <!--complainants-->
+    <string name="complainants_title">COMPLAINANTS</string>
+    <string name="complainants_message">OUR DEAR CUSTOMER PLEASE WRITE YOUR PROBLEM AND WE WILL TRY TO SOLVE IT AS SOON AS POSSIBLE </string>
+    <string name="complainants_hint">PLEASE WRITE YOUR COMPLAINANT HERE</string>
+
+    <string name="suggestions_and_complainants_button">SEND</string>
+
+
+    <!-- ABOUT APP FRAGMENT ITEMS -->
+    <!--ABOUT APP TEXT VIEWS -->
+    <string name="about_app_fragment_evaluation_app_text_view">RATTING APP</string>
+    <string name="about_app_fragment_share_app_text_view">SHARE APP</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="deleting">DELETING ...</string>
+    <string name="sending">SENDING ...</string>
+    <string name="evaluating">RATTING ...</string>
+    <string name="please_wait">PLEASE WAIT ...</string>
+    <string name="story">STORY</string>
+    <string name="others">OTHERS</string>
+    <string name="new_new">NEW</string>
+    <string name="ok">OK</string>
+    <string name="check">CHECK</string>
+
+    <string name="are_you_sure">ARE YOU SURE ?</string>
+    <string name="no_internet_connection">NO INTERNET CONNECTION PLEASE TRY AGAIN LETTER ...</string>
+    <string name="no_internet_connection_2">YOU LOST INTERNET CONNECTION ... RECONNECT TO NETWORK AND DON\'\T CLOSE THE APP IF YOU WANT TO RETURN TO THE LAST ACTIVITY</string>
+    <string name="bad_internet_connection">BAD INTERNET CONNECTION PLEASE TRY AGAIN LETTER ...</string>
+    <string name="other_errors">AN ERROR OCCURRED WHEN TRYING TO CONNECT TO THE SERVER ...! PLEASE TRY AGAIN LATER  </string>
+
+    <string name="also_chang_image_check_box">ALSO CHANGE THE IMAGE</string>
+    <string name="are_not_exist">ARE NOT EXISTING</string>
+
+    <string name="internet_re_connected">INTERNET RECONNECTED</string>
+
+
+
+    <string name="not_defined">NOT DEFINED ...!</string>
+
+</resources>

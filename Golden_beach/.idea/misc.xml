@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/drawable-v21/info_icon_golden.xml" value="0.27314814814814814" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-hdpi/all_list_activity.xml" value="0.32242063492063494" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-mdpi/all_list_activity.xml" value="0.47238372093023256" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-v21/about_all_activity.xml" value="0.525" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-v21/activity_main.xml" value="0.26871794871794874" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-v21/all_list_activity.xml" value="0.7651515151515151" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-v21/all_list_items.xml" value="1.25" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-v21/base_complainants_items.xml" value="0.5590062111801242" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-v21/edit_posts_activity.xml" value="0.6571969696969697" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-v21/splash_activity.xml" value="0.7651515151515151" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-xxhdpi/signup_condations_activity.xml" value="0.18055555555555555" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-xxxhdpi/all_list_activity.xml" value="0.13797814207650272" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-xxxhdpi/all_list_items.xml" value="0.13797814207650272" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-xxxhdpi/fragment_home.xml" value="0.1" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout-xxxhdpi/singup_activity.xml" value="0.1388888888888889" />
+        <entry key="..\:/unevarsity/levels/2ed level/semesters/second semester/Android/p/Golden beach/app/src/main/res/layout/chang_language_dialog.xml" value="0.18" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

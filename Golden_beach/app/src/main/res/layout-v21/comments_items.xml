@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="5dp"
+    >
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comments_items_linear"
+            >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    style="@style/suggestions_and_complainants_image_view"
+                    android:id="@+id/comments_items_image_of_user"
+
+                    />
+
+                <TextView
+                    android:id="@+id/comments_items_user_name_text_view"
+                    style="@style/about_all_activity_comments_items"
+                    android:text="asdfsadf"
+
+                />
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                style="@style/suggestions_and_complainants_recycle_view_complainant_text_view"
+                android:id="@+id/comments_items_comments_text_view"
+                android:text="user name"
+                android:layout_below="@id/comments_items_linear"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/dark_gray"
+
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/comments_items_user_id_text_view"
+                android:visibility="gone"
+
+                />
+
+
+
+</LinearLayout>

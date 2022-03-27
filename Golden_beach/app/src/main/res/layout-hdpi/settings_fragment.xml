@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.settings.Settings_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        style="@style/admin_control_panel_basic_card_view"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                style="@style/admin_control_panel_text_views"
+                android:text="@string/settings_fragment_notification_text_view"
+                android:layout_weight="1"
+
+                />
+
+
+
+
+            <androidx.cardview.widget.CardView
+                style="@style/admin_control_panel_card_view_of_image_views"
+                >
+
+                <com.github.zagum.switchicon.SwitchIconView
+                    style="@style/settings_title_switches_style"
+                    android:id="@+id/settings_fragment_notifications_switch"
+                    app:srcCompat="@drawable/suggestion_icon_golden"
+                    app:si_enabled="true"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        style="@style/admin_control_panel_basic_card_view"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                style="@style/admin_control_panel_text_views"
+                android:text="@string/settings_fragment_dark_mode_text_view"
+                android:layout_weight="1"
+
+                />
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                style="@style/admin_control_panel_card_view_of_image_views"
+                >
+
+                <com.github.zagum.switchicon.SwitchIconView
+                    style="@style/settings_title_switches_style"
+                    android:id="@+id/settings_fragment_dark_mode_switch"
+                    app:srcCompat="@drawable/dark_mode_icon"
+                    app:si_enabled="false"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        android:background="@color/light_gray"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+    <androidx.cardview.widget.CardView
+        style="@style/admin_control_panel_basic_card_view"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                style="@style/admin_control_panel_text_views"
+                android:text="@string/language"
+                android:layout_weight="1"
+                android:id="@+id/settings_fragment_language_text_view"
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
+
+
+

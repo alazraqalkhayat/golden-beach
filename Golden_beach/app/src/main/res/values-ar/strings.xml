@@ -1,0 +1,672 @@
+<resources>
+    <string name="app_name">الشاطئ الذهبي</string>
+    <string name="admin_control_panel_activity_label">لوحة تحكم المدير</string>
+    <string name="adds_management_activity_label">ادارة الإعلانات</string>
+    <string name="modified_activity_label">MODIFIED MANAGEMENT</string>
+
+
+    <!--labels of all list activity-->
+    <string name="movies_list">قائمة الأفلام</string>
+    <string name="series_list">قائمة المسلسلات</string>
+    <string name="animations_list">قائمة الإنمي</string>
+    <string name="plays_list">قائمة المسرحيات</string>
+    <string name="documentaries_list">قائمة الوقائقيات</string>
+    <string name="others_list">أخرى</string>
+    <string name="games_list">قائمة الألعاب</string>
+
+
+    <!--toast strings-->
+
+    <string name="check_input_all_date">الرجاء التأكد من إدخال حميع البيانات </string>
+    <string name="add_the_image">الرجاء إدخال صوره لكي يتم عرضها</string>
+
+    <string name="login_activity_login_successful">تم تسجيل الدخول بنجاح</string>
+    <string name="login_activity_wrong_user_name_or_password">خطأ في إسم المستخدم أو كلمه المرور</string>
+    <string name="sign_up_activity_user_name_eight_car">إسم المستخدم يجب أن يحتوي على 8 حروف أو أكثر</string>
+    <string name="sign_up_activity_password_eight_car">كلمة المرور يجب أن تحتوي على 8 حروف أو أكثر</string>
+    <string name="sign_up_activity_password_are_not_same">كلمة المرور غير متطابقه</string>
+    <string name="write_your_suggestion_to_send">يرجى كتابة مقترحك أولاً ليتم إرساله </string>
+    <string name="write_your_complainant_to_send">يرجى كتباة شكواك أولاً ليتم إرسالها </string>
+
+    <string name="name_already_exist">إسم المستخدم موجود مسبقاً</string>
+    <string name="email_already_exist">هذا الإيميل موجود مسبقاً</string>
+    <string name="registration_successful">تم تسجيل الدخول بنجاح</string>
+    <string name="already_fond">العنصر الذي أدخلته موجود بالفعل مع الموسم ذاتة</string>
+    <string name="an_error_occurred">حدث خطأ ما يرجى المحاوله لاحقاً</string>
+    <string name="required_fields_is_missing">خطأ عند محاولة إرسال البيانات</string>
+    <string name="adding_successful">تمت عملية الإضافه بنجاح</string>
+    <string name="uploading_successful">تمت عملية التحديث بنجاح</string>
+    <string name="deleted_successfully">تمت عملية الحذف بنجاح</string>
+    <string name="added_comment_successfully">تمت اضافة تعليقك بنجاح</string>
+    <string name="updating_successful">تمت عملية التحديث بنجاح</string>
+
+    <string name="sending_successfully">تمت عملية الإرسال بنجاح</string>
+    <string name="about_all_activity_added_to_watching_list_successfully">تمت عملية الإضافه بنجاح</string>
+    <string name="about_all_activity_added_to_watching_list_already_found">ربما قد يكون موجود في قائمه المشاهدات</string>
+
+    <string name="watching_list_no_item_selected">لا يوجد عناصر محدده</string>
+    <string name="watching_list_deleted_items">عناصر تمت حذفها بنجاح</string>
+    <string name="watching_list_deleted_item">عنصر تم حذفه بنجاح</string>
+    <string name="watching_list_sent_items">عناصر تمت ارسالها بنجاح</string>
+    <string name="watching_list_sent_item">عنصر تم ارسالة بنجاح</string>
+    <string name="watching_list_you_are_the_admin">أنت بالفعل المدير</string>
+
+
+    <string name="input_comment">لا يمكن التعليق بقيمه فارغه</string>
+
+    <string name="input_the_key_word">يرجى إدخال اي كلمه تعبيريه</string>
+    <string name="input_the_year">يرجى إدخال العام</string>
+
+    <string name="you_have_to_input_evaluation_value">الرجاء إدخال قيمه </string>
+    <string name="input_evaluation_insert_successful_message">تمت عملية التقييم بنجاح</string>
+    <string name="input_evaluation_update_successful_message">تم تغيير التقييم بنجاح</string>
+
+    <string name="this_feature_is_not_available_now">هذه الميزه غير متاحه في الوقت الحالي ..!</string>
+
+    <string name="no_more_comments">لا توجد تعليقات أخرى</string>
+    <string name="no_more_suggestions">لا توجد اقتراحات أخرى</string>
+    <string name="no_more_complainants">لا توجد شكاوى أخرى</string>
+    <string name="no_more_items">لا توجد عناصر أخرى</string>
+
+    <string name="not_found_any_user">لا يوجد مستخدمين</string>
+
+
+    <!--splash activity strings-->
+    <string name="splash_activity_name_of_shop_text_view">الشاطئ الذهبي</string>
+    <string name="splash_activity_copy_right_text_view">جميع الحقوق محفوظه \u00a9 لمحلات الشاطئ الذهبي</string>
+
+    <!--control panel activity text views -->
+    <string name="control_panel_activity_posts_managements_text_view">إدارة المنشورات</string>
+    <string name="control_panel_activity_adds_managements_text_view">إدارة الإعلانات</string>
+    <string name="control_panel_activity_modified_managements_text_view">MODIFIED MANAGEMENT</string>
+
+
+    <string name="add_new_post_activity_header_text_view">منشور جديد</string>
+    <string name="add_new_post_activity_section_text_view">قسم</string>
+    <string name="add_new_post_activity_brand_of_section_text_view">نوع القسم</string>
+    <string name="add_new_post_activity_category_view">الصنف</string>
+    <string name="add_new_post_activity_name_text_view">الإسم</string>
+    <string name="add_new_post_activity_story_text_view">الفصه</string>
+    <string name="add_new_post_activity_trailer_text_view">الإعلان</string>
+    <string name="add_new_post_activity_year_text_view">السنه</string>
+    <string name="add_new_post_activity_session_text_view">الموسم</string>
+    <string name="add_new_post_activity_upload_button">رفع</string>
+
+    <string name="add_new_post_activity_add_new_post_progress_dialog_title">جاري رفع المنشور ...</string>
+    <string name="add_new_post_activity_add_new_post_progress_dialog_message">يرجى الإنتطار ...</string>
+
+    <string name="edit_post_activity_header_text_view">تحديث المنشور</string>
+    <string name="edit_post_activity_upload_button">تحديث</string>
+
+
+    <string name="edit_adds_activity_header_text_view">تحديث الإعلان</string>
+
+    <string name="adds_management_activity_new_add_title">إعلان جديد</string>
+    <string name="adds_management_activity_all_adds_title">جميع الإعلانات</string>
+
+    <string name="there_are_no_adds">لا توجد إعلانات</string>
+    <string name="all_adds_fragment_no_adds_text_view">لم تقم بإضافة إعلانات مسبقاً</string>
+
+
+
+    <string name="new_add_fragment_new_add_progress_dialog_title">جاري رفع الإعلان ...</string>
+    <string name="new_add_fragment_new_add_progress_dialog_message">يرجى الإنتطار ...</string>
+
+    <string name="all_adds_fragment_get_all_adds_progress_dialog_title">جاري جلب الإعلانات</string>
+    <string name="all_adds_fragment_get_all_adds_progress_dialog_message">يرجى الإنتطار ...</string>
+
+    <string name="all_adds_fragment_delete_add_progress_dialog_title">جاري الحذف ...</string>
+    <string name="all_adds_fragment_delete_add_progress_dialog_message">جاري حذف الإعلان ...</string>
+
+    <string name="all_adds_fragment_management_the_add_alert_dialog_title">تعديل/حذف الإعلان</string>
+    <string name="all_adds_fragment_management_the_add_alert_dialog_message">الرجاء إدخال مهمه</string>
+    <string name="all_adds_fragment_management_the_add_alert_dialog_positive_button">تعديل</string>
+    <string name="all_adds_fragment_management_the_add_alert_dialog_negative_button">حذف</string>
+
+    <string name="all_adds_fragment_sure_delete_the_add_alert_dialog_message">تريد حذف الإعلان</string>
+    <string name="all_adds_fragment_sure_delete_the_add_alert_dialog_positive_button">حذف</string>
+    <string name="all_adds_fragment_sure_delete_the_add_alert_dialog_negative_button">إالغاء</string>
+
+    <string name="edit_adds_activity_owner_name_text_view">إسم صاحب الإعلان</string>
+    <string name="edit_adds_activity_description_text_view">الوصف</string>
+    <string name="edit_adds_activity_update_text_view">تحديث</string>
+
+    <!--LOGIN AND SIGN UP ACTIVITIES-->
+    <!--LOGIN ACTIVITY-->
+    <string name="login_activity_progress_dialog_title">تسجيل الدخول</string>
+    <string name="login_activity_progress_dialog_message">يرجى الإنتظار حتى يتم التحقق ...</string>
+    <string name="login_activity_user_name_hint">إسم المستخدم</string>
+    <string name="login_activity_password_hint">كلمة المرور</string>
+    <string name="login_activity_forget_password_text_view">هل نسيت كملة المرور ؟</string>
+    <string name="login_activity_login_button">تسجيل الدخول</string>
+    <string name="login_activity_message_text_view">لا تمتلك حساب ...؟</string>
+    <string name="login_activity_create_text_view">إنشاء</string>
+    <string name="login_activity_notification_message">مرحباً سيد </string>
+
+
+    <!--SIGN UP ACTIVITY-->
+    <string name="sign_up_activity_progress_dialog_title">إنشاء حساب</string>
+    <string name="sign_up_activity_progress_dialog_message">يرجى الإنتظار حتى يتم التحقق ...</string>
+    <string name="signup_activity_full_name_hint">الإسم الكامل</string>
+    <string name="signup_activity_user_name_hint">إسم المستخدم</string>
+    <string name="signup_activity_email_hint">الإيميل</string>
+    <string name="signup_activity_password_hint">كلمة المرور</string>
+    <string name="signup_activity_confirm_password_hint">تأكيد كلمة المرور</string>
+    <string name="signup_activity_signup_button">إنشاء حساب</string>
+    <string name="signup_activity_message_text_view">هل تمتلك حساب مسبقاً ...؟</string>
+    <string name="signup_activity_login_text_view">تسجيل الدخول</string>
+
+
+    <!--LOGIN ALERT DIALOG STRINGS-->
+    <string name="login_alert_dialog_title">تسجيل الدخول</string>
+    <string name="login_alert_dialog_message">ينبغي تسجيل الدخول أولاً... </string>
+    <string name="login_alert_dialog_ok_button">تسجيل الدخول</string>
+    <string name="login_alert_dialog_cancel_button">إلغاء</string>
+
+    <string name="sign_up_condations_title_text_view">شروط تسجيل الدخول</string>
+    <string name="sign_up_condations_first_message">يجب أن يكون الإسم الكامل وإسم المستخدم واضح للتواصل مع المدير بشكل واضح </string>
+    <string name="sign_up_condations_second_message"> يجب إضافة إيميل صحيح لإسترداد كلمة المرور في حالة فقدانها</string>
+    <string name="sign_up_condations_third_message">محتوى التطبيق مناسب لمن هم في سن العاشره وما فوق </string>
+    <string name="sign_up_condations_fourth_message">كلمة المرور يجب أن تحتوي على 8 حروف أو أكثر </string>
+    <string name="sign_up_condations_button">إستمرار</string>
+
+
+
+    <!--_____________________________________________________________________________________-->
+
+    <!--HOME FRAGMENT STRINGS-->
+    <string name="post_session">الموسم : </string>
+    <string name="post_year">العام : </string>
+    <string name="post_section">القسم : </string>
+    <string name="post_category">الصنف : </string>
+    <string name="post_see_more_details">المزيد من التفاصيل </string>
+
+    <string name="home_fragment_posts_dialog_title">جاري جلب البيانات</string>
+    <string name="home_fragment_posts_dialog_message">PLEASE WAIT UNTIL FETCHING THE POSTS</string>
+    <string name="home_fragment_we_have_maintenance_section">يوجد لدينا قسم صيانه</string>
+
+
+    <!--_____________________________________________________________________________________-->
+
+    <!--SECTIONS FRAGMENT LIST VIEW ITEMS -->
+    <!--MOVIES ITEMS-->
+    <string name="sections_fragment__expandable_list_view_movies_title">الأفلام</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_foreign">أجنبي</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_arabic">عربي</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_indian">هندي</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_korean">كوري</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_japanese">ياباني</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_chinese">صيني</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_thai">تايلاندي</string>
+    <string name="sections_fragment__expandable_list_view_movies_body_Indonesian">أندنوسي</string>
+
+    <!--SERIES ITEMS-->
+    <string name="sections_fragment__expandable_list_view_series_title">المسلسلات</string>
+    <string name="sections_fragment__expandable_list_view_series_body_foreign">أجنبي</string>
+    <string name="sections_fragment__expandable_list_view_series_body_arabic">عربي</string>
+    <string name="sections_fragment__expandable_list_view_series_body_indian">هندي</string>
+    <string name="sections_fragment__expandable_list_view_series_body_turkish">تركي</string>
+    <string name="sections_fragment__expandable_list_view_series_body_korean">كوري</string>
+    <string name="sections_fragment__expandable_list_view_series_body_japanese">ياباني</string>
+    <string name="sections_fragment__expandable_list_view_series_body_chinese">صيني</string>
+    <string name="sections_fragment__expandable_list_view_series_body_thai">تايلاندي</string>
+    <string name="sections_fragment__expandable_list_view_series_body_Indonesian">أندنوسي</string>
+    <string name="sections_fragment__expandable_list_view_series_body_arabic_cartons">كرتون عربي</string>
+
+
+
+    <string name="sections_fragment__expandable_list_view_animation_title">إنمي</string>
+    <string name="sections_fragment__expandable_list_view_animation_body_series">مسلسلات</string>
+    <string name="sections_fragment__expandable_list_view_animation_body_movies">أفلام</string>
+
+    <string name="sections_fragment__expandable_list_view_play_title">المسرحيات</string>
+    <string name="sections_fragment__expandable_list_view_play_body_plays">مسرحيات</string>
+
+    <string name="sections_fragment__expandable_list_view_documentaries_title">الوثائقيات</string>
+    <string name="sections_fragment__expandable_list_view_documentaries_body_documentaries">وثائقيات</string>
+
+    <string name="sections_fragment__expandable_list_view_others_title">أخرى</string>
+    <string name="sections_fragment__expandable_list_view_others_body_others">أخرى</string>
+
+    <string name="sections_fragment__expandable_list_view_games_title">الألعاب</string>
+    <string name="sections_fragment__expandable_list_view_games_body_games">العاب</string>
+
+
+    <!--MOVIES LIST ITEMS -->
+
+    <!--ALL LIST DIALOG-->
+
+    <string name="all_list_get_all_dialog_title">جاري جلب البيانات ...</string>
+    <string name="all_list_get_all_dialog_message">يرجي الإنتظار ...  </string>
+    <string name="all_list_delete_post_dialog_title">جاري الحذف ...</string>
+    <string name="all_list_delete_post_dialog_message">يرجي الإنتظار ... </string>
+
+
+    <string name="all_list_management_the_post_alert_dialog_title">تعديل/حذف المنشور</string>
+    <string name="all_list_management_the_post_alert_dialog_message">الرجاء إدخال مهمه</string>
+    <string name="all_list_management_the_post_alert_dialog_positive_button">تعديل</string>
+    <string name="all_list_management_the_post_alert_dialog_negative_button">حذف</string>
+
+    <string name="all_list_sure_delete_the_post_alert_dialog_message">تريد حذف المنشور </string>
+    <string name="all_list_sure_delete_the_post_alert_dialog_positive_button">حذف</string>
+    <string name="all_list_sure_delete_the_post_alert_dialog_negative_button">إالغاء</string>
+
+
+    <!--MOVIES LIST TEXT VIEWS -->
+
+    <string name="movies_list_message_text_view">إنقر على القائمه لإختيار الصنف</string>
+    <string name="movies_list_modern_movies_text_view">أحدث الافلام</string>
+    <string name="movies_list_modern_series_text_view">أحدث المسلسلات</string>
+    <string name="movies_list_modern_anime_text_view">أحدث الإنمي</string>
+    <string name="movies_list_modern_plays_text_view">أحدث المسرحيات</string>
+    <string name="movies_list_modern_documentaries_text_view">أحدث الوثائقيات</string>
+    <string name="movies_list_modern_games_text_view">أحدث الألعاب</string>
+    <string name="movies_list_modern_just_text_view">أحدث</string>
+
+
+    <string name="movies_list_others_text_view">أخرى</string>
+
+    <!--MOVIES LIST SPINNER ITEMS -->
+
+
+    <!--spinners arrays-->
+
+    <!--NAME OF SECTIONS ITEMS-->
+
+    <string name="animations_text_view">إنمي</string>
+
+    <string name="all_movies">جميع الأفلام</string>
+    <string name="all_series">جميع المسلسلات</string>
+    <string name="all_animations">جميع الإنمي</string>
+
+    <string name="section_movies">أفلام</string>
+    <string name="section_series">مسلسلات</string>
+    <string name="section_animation_movies_translated">أفلام مترجم</string>
+    <string name="section_animation_movies_dabbed">أفلام مدبلج</string>
+    <string name="section_animation_series_translated">مسلسلات مترجم</string>
+    <string name="section_animation_series_dabbed">مسلسلات مدبلج</string>
+    <string name="section_plays">مسرحيات</string>
+    <string name="section_documentaries">وثائقيات</string>
+    <string name="section_others">أخرى</string>
+    <string name="section_games">العاب</string>
+
+
+    <!--NAME OF BRAND OF SECTIONS ITEMS-->
+
+    <string name="brand_of_section_foreign">أجنبي</string>
+    <string name="brand_of_section_arabic">عربي</string>
+    <string name="brand_of_section_indian">هندي</string>
+    <string name="brand_of_section_turkish">تركي</string>
+    <string name="brand_of_section_korean">كوري</string>
+    <string name="brand_of_section_japanese">ياباني</string>
+    <string name="brand_of_section_chinese">صيني</string>
+    <string name="brand_of_section_thai">تايلاندي</string>
+    <string name="brand_of_section_Indonesian">أندنوسي</string>
+    <string name="brand_of_section_arabic_cartons">كرتون عربي</string>
+    <string name="brand_of_section_animations_movies_translated">أفلام مترجم</string>
+    <string name="brand_of_section_animations_movies_dabbed">افلام مدبلج</string>
+    <string name="brand_of_section_animations_series_translated">مسلسلات مترجم</string>
+    <string name="brand_of_section_animations_series_dabbed">مسلسلات مدبلج</string>
+
+    <string name="brand_of_section_plays">مسريحات</string>
+    <string name="brand_of_section_documentaries">وثائقيات</string>
+    <string name="brand_of_section_others">أخرى</string>
+    <string name="brand_of_section_games">العاب</string>
+
+    <!--CATEGORIES ITEMS-->
+
+    <string name="categories_action">أكشن</string>
+    <string name="categories_war">حربي</string>
+    <string name="categories_crime">جريمه</string>
+    <string name="categories_mystery">غموض</string>
+    <string name="categories_adventure">مغامره</string>
+    <string name="categories_horror">رعب</string>
+    <string name="categories_drama">دراما</string>
+    <string name="categories_romantic">رومنسي</string>
+    <string name="categories_comedian">كوميدي</string>
+    <string name="categories_science_fiction_imogen">خيال علمي</string>
+    <string name="categories_fantasy">فنتازيا</string>
+    <string name="categories_family">عائله</string>
+    <string name="categories_history">تاريخي</string>
+    <string name="categories_musical">موسيقى</string>
+    <string name="categories_sport">رياضي</string>
+    <string name="categories_western">غربي</string>
+    <string name="categories_thrilling">إثاره</string>
+
+    <string name="categories_dabbed">مدبلج</string>
+    <string name="categories_translated">مترجم</string>
+
+    <string name="categories_plays">مسرحيات</string>
+    <string name="categories_documentaries">وثائقيات</string>
+    <string name="categories_others">أخرى</string>
+    <string name="categories_games">العاب</string>
+
+    <string-array name="sections_array">
+        <item>@string/section_movies</item>
+        <item>@string/section_series</item>
+        <item>@string/animations_text_view</item>
+        <item>@string/section_plays</item>
+        <item>@string/section_documentaries</item>
+        <item>@string/section_others</item>
+        <item>@string/section_games</item>
+    </string-array>
+
+
+    <string-array name="brand_of_sections_array_of_all">
+        <item>@string/brand_of_section_foreign</item>
+        <item>@string/brand_of_section_arabic</item>
+        <item>@string/brand_of_section_indian</item>
+        <item>@string/brand_of_section_turkish</item>
+        <item>@string/brand_of_section_animations_movies_translated</item>
+        <item>@string/brand_of_section_animations_movies_dabbed</item>
+        <item>@string/brand_of_section_animations_series_translated</item>
+        <item>@string/brand_of_section_animations_series_dabbed</item>
+        <item>@string/brand_of_section_plays</item>
+        <item>@string/brand_of_section_documentaries</item>
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_movies">
+        <item>@string/brand_of_section_foreign</item>
+        <item>@string/brand_of_section_arabic</item>
+        <item>@string/brand_of_section_indian</item>
+        <item>@string/brand_of_section_turkish</item>
+        <item>@string/brand_of_section_korean</item>
+        <item>@string/brand_of_section_japanese</item>
+        <item>@string/brand_of_section_chinese</item>
+        <item>@string/brand_of_section_thai</item>
+        <item>@string/brand_of_section_Indonesian</item>
+
+    </string-array>
+
+
+    <string-array name="brand_of_sections_array_of_series">
+        <item>@string/brand_of_section_foreign</item>
+        <item>@string/brand_of_section_arabic</item>
+        <item>@string/brand_of_section_indian</item>
+        <item>@string/brand_of_section_turkish</item>
+        <item>@string/brand_of_section_korean</item>
+        <item>@string/brand_of_section_japanese</item>
+        <item>@string/brand_of_section_chinese</item>
+        <item>@string/brand_of_section_thai</item>
+        <item>@string/brand_of_section_Indonesian</item>
+        <item>@string/brand_of_section_arabic_cartons</item>
+
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_animations">
+        <item>@string/brand_of_section_animations_movies_translated</item>
+        <item>@string/brand_of_section_animations_movies_dabbed</item>
+        <item>@string/brand_of_section_animations_series_translated</item>
+        <item>@string/brand_of_section_animations_series_dabbed</item>
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_plays">
+        <item>@string/brand_of_section_plays</item>
+    </string-array>
+
+
+    <string-array name="brand_of_sections_array_of_documentaries">
+        <item>@string/brand_of_section_documentaries</item>
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_others">
+        <item>@string/brand_of_section_others</item>
+    </string-array>
+
+    <string-array name="brand_of_sections_array_of_games">
+        <item>@string/brand_of_section_games</item>
+    </string-array>
+
+    <string-array name="categories_series_and_movies_array">
+        <item>@string/categories_action</item>
+        <item>@string/categories_war</item>
+        <item>@string/categories_crime</item>
+        <item>@string/categories_mystery</item>
+        <item>@string/categories_adventure</item>
+        <item>@string/categories_horror</item>
+        <item>@string/categories_drama</item>
+        <item>@string/categories_romantic</item>
+        <item>@string/categories_comedian</item>
+        <item>@string/categories_science_fiction_imogen</item>
+        <item>@string/categories_fantasy</item>
+        <item>@string/categories_family</item>
+        <item>@string/categories_history</item>
+        <item>@string/categories_musical</item>
+        <item>@string/categories_sport</item>
+        <item>@string/categories_western</item>
+        <item>@string/categories_thrilling</item>
+    </string-array>
+
+
+    <string-array name="categories_animation_series_array">
+        <item>@string/categories_dabbed</item>
+        <item>@string/categories_translated</item>
+    </string-array>
+
+    <string-array name="categories_animation_movies_array">
+        <item>@string/categories_dabbed</item>
+        <item>@string/categories_translated</item>
+    </string-array>
+
+    <string-array name="categories_plays_array">
+        <item>@string/categories_plays</item>
+    </string-array>
+
+    <string-array name="categories_documentaries_array">
+        <item>@string/categories_documentaries</item>
+    </string-array>
+
+    <string-array name="categories_others_array">
+        <item>@string/categories_others</item>
+    </string-array>
+
+    <string-array name="categories_games_array">
+        <item>@string/categories_games</item>
+    </string-array>
+
+    <string-array name="categories_all_array">
+        <item>@string/categories_action</item>
+        <item>@string/categories_drama</item>
+        <item>@string/categories_comedian</item>
+        <item>@string/categories_horror</item>
+        <item>@string/categories_science_fiction_imogen</item>
+        <item>@string/categories_dabbed</item>
+        <item>@string/categories_translated</item>
+        <item>@string/categories_dabbed</item>
+        <item>@string/categories_translated</item>
+        <item>@string/categories_plays</item>
+        <item>@string/categories_documentaries</item>
+        <item>@string/categories_others</item>
+    </string-array>
+
+
+    <!--ABOUT ALL STRINGS -->
+
+    <string name="about_all_activity_seasons_no">عدد المواسم :</string>
+    <string name="about_all_activity_parts_no">عدد الأجزاء :</string>
+
+    <string name="about_all_activity_add_to_watching_list_button">إضافه إلى قائمة المشاهدات</string>
+    <string name="about_all_activity_watch_trailer_button">مشاهدة الإعلان</string>
+    <string name="about_all_activity_comment_text_view">أضف تعليقك</string>
+    <string name="about_all_activity_comment_edit_text_hint">يرجى إدخال تعليقك هنا</string>
+    <string name="about_all_activity_comment_button">تعليق</string>
+    <string name="about_all_activity_show_comments_text_views">إظهار التعليقات</string>
+    <string name="about_all_activity_hide_comments_text_views">إخفاء التعليقات</string>
+    <string name="about_all_activity_adding_new_comment_progress_dialog_title">جاري إضافة التعليق ...</string>
+    <string name="comment">تعليق</string>
+    <string name="trailer">الإعلان</string>
+
+
+
+    <string name="about_all_activity_evaluate_button">تقييم</string>
+    <string name="about_all_activity_cancel_button">إالغاء</string>
+
+    <string name="no_comment">لا يوجد اي تعليقات بعد </string>
+
+    <!--settings strings-->
+    <string name="settings_fragment_notification_text_view">الإشعارات</string>
+    <string name="settings_fragment_dark_mode_text_view">الوضع المظلم</string>
+
+    <string name="language">اللغه</string>
+
+    <string name="chang_language_dialog_header">إختر لغه التطبيق</string>
+    <string name="language_arabic">عربيه</string>
+    <string name="language_english">إنجليزيه</string>
+
+
+    <!--BASE SUGGESTIONS AND COMPLAINANTS FRAGMENT STRINGS  -->
+    <string name="base_suggestion_progress_dialog_of_insert_suggestion_title">جاري الإدخال ...</string>
+    <string name="base_suggestion_progress_dialog_of_insert_suggestion_message">جاري إدخال مقترحك ...</string>
+    <string name="base_suggestion_progress_dialog_of_get_all_suggestions_title">جاري التحميل ...</string>
+    <string name="base_suggestion_progress_dialog_of_get_all_suggestions__message">جاري جلب جميع المقترحات ...</string>
+
+    <string name="base_complainant_progress_dialog_of_insert_complainant_title">جاري الإدخال ...</string>
+    <string name="base_complainant_progress_dialog_of_insert_complainant_message">جاري إدخال شكواك ...</string>
+    <string name="base_complainant_progress_dialog_of_get_all_complainants_title">جاري التحميل ...</string>
+    <string name="base_complainant_progress_dialog_of_get_all_complainants_message">جاري جلب جميع الشكاوى ...</string>
+
+
+    <!--watching list strings -->
+    <string name="watching_list_no_items">لم تقم بإضافه أي عناصر مسبقاً</string>
+    <string name="all_list_sure_delete_the_watching_list_items_alert_dialog_title">تأكيد</string>
+    <string name="all_list_sure_delete_the_watching_list_items_alert_dialog_message">تريد حذف جميع العناصر المحدده</string>
+    <string name="all_list_sure_delete_the_watching_list_items_alert_dialog_positive_button">حذف</string>
+    <string name="all_list_sure_delete_the_watching_list_items_alert_dialog_negative_button">إالغاء</string>
+
+    <string name="all_list_sure_send_the_watching_list_items_alert_dialog_title">الرجاء إدخال طريفة الإرسال </string>
+    <string name="all_list_sure_send_the_watching_list_items_alert_dialog_message">الزرار الأحمر يرسل العناصر مع حذفها , الزرار الأخضر يرسل العناصر مع الإحتفاظ بها</string>
+    <string name="all_list_sure_send_the_watching_list_items_alert_dialog_positive_button">ارسال فقط</string>
+    <string name="all_list_sure_send_the_watching_list_items_alert_dialog_negative_button">ارسال وحذف</string>
+
+
+    <!--search fragment strings -->
+
+    <string name="search_fragment_search_by_title">البحث بحسب : </string>
+    <string name="search_fragment_search_by_name_edit_text_hint">يرجى إدخال الإسم هنا ...</string>
+    <string name="search_fragment_search_by_year_edit_text_hint">يرجى إدخال العام هنا ...</string>
+    <string name="search_fragment_search_button">بحث</string>
+    <string name="search_fragment_more_details_check_box">البحث بواسطه مزيد من التفاصيل </string>
+
+    <string name="search_method_header">إختر طريقة البحث</string>
+    <string name="search_methods_name">الإسم</string>
+    <string name="search_methods_name_with_details">الإسم مع التفاصيل</string>
+    <string name="search_methods_year">العام</string>
+    <string name="search_methods_year_with_details">العام مع التفاصيل</string>
+    <string name="search_methods_evaluation">التقييم</string>
+    <string name="search_methods_evaluation_with_details">التقييم مع التفاصيل</string>
+
+
+    <!--chatting strings-->
+    <string name="chatting_no_items">المحادثات لن تكون ظاهره قبل تسجيل الدخول</string>
+
+
+    <!--base chatting strings-->
+    <string name="base_chatting_activity_edit_text_hint"> أدخل رسالتك . . .</string>
+
+    <!--system strings-->
+    <string name="navigation_drawer_open">فتح القائمه الجانبيه</string>
+    <string name="navigation_drawer_close">أغلاق الفائمه الجانبيه</string>
+    <string name="nav_header_title">أندرويد ستوديو</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <!--base menu items strings -->
+    <string name="main_menu_login">تسجيل الدخول</string>
+    <string name="main_menu_sign_in">إنشاء حساب</string>
+    <string name="main_menu_logout">تسجيل الخروج</string>
+
+    <!-- navigation drawer title of groups items strings -->
+    <string name="menu_title_communication">التواصل</string>
+    <string name="menu_title_services">الخدمات</string>
+    <string name="menu_title_tools">الأدوات</string>
+    <string name="menu_title_others">أخرى</string>
+
+
+    <!-- navigation drawer items strings -->
+
+
+    <string name="menu_home">الرئيسيه</string>
+    <string name="menu_categories">الأصناف</string>
+    <string name="menu_categories2">2الأصناف</string>
+    <string name="menu_watching_list">قائمة المشاهدات</string>
+    <string name="menu_search">بحث</string>
+    <string name="menu_maintenance">قسم الصيانه</string>
+    <string name="menu_accessories">ACCESSORIES</string>
+    <string name="menu_offers">OFFERS</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_suggestions">FEED BACK</string>
+    <string name="menu_about_app">عن التطبيق</string>
+    <string name="menu_contact_us">من نحن ؟</string>
+    <string name="menu_about_developer">عن المطور </string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">الأدوات</string>
+    <string name="menu_share">البحث</string>
+    <string name="menu_send">المحادثه</string>
+
+
+    <!--contact us strings-->
+    <!--text view -->
+    <string name="contact_us_manager_name_text_view">أسم المدير</string>
+    <string name="contact_us_phone_number_text_view">رقم المدير</string>
+    <string name="contact_us_email_text_view">الإيميل</string>
+    <string name="contact_us_place_text_view">المكان</string>
+
+    <string name="contact_us_manager_name_edit_text"> وهيب درهم الرفيد</string>
+    <string name="contact_us_phone_number_edit_text">711 251 145</string>
+    <string name="contact_us_email_edit_text">goldeanbeachye@gmail.com</string>
+    <string name="contact_us_place_edit_text">صنعاء شارع الرقاص أمام مركز أبو حسام</string>
+
+
+    <!--suggestions and complainants strings-->
+
+    <!--suggestions-->
+    <string name="suggestions_title">المقترحات</string>
+    <string name="suggestions_message">عميلنا الكريم مقترحك مهم بالنسبه لنا  </string>
+    <string name="suggestions_hint">يرجى كتابة مقترحك هنا ... </string>
+    <!--complainants-->
+    <string name="complainants_title">الشكاوى</string>
+    <string name="complainants_message">عميلنا الكريم يرجى اخبرنا عن مشكلتك وسنعمل على اصلاحها باقرب وقت ممكن </string>
+    <string name="complainants_hint">يرجى كتابة شكواك هنا ...</string>
+
+    <string name="suggestions_and_complainants_button">إرسال</string>
+
+
+    <!-- ABOUT APP FRAGMENT ITEMS -->
+    <!--ABOUT APP TEXT VIEWS -->
+    <string name="about_app_fragment_evaluation_app_text_view">تقييم التطبيق</string>
+    <string name="about_app_fragment_share_app_text_view">إرسال التطبيق</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="deleting">جاري الحذف ...</string>
+    <string name="sending">جاري الإرسال ...</string>
+    <string name="evaluating">جاري التفييم ...</string>
+    <string name="please_wait">يرجى الإنتطار ...</string>
+    <string name="story">القصه</string>
+    <string name="others">أخرى</string>
+    <string name="new_new">الأحدث</string>
+
+    <string name="ok">حسنأ</string>
+
+    <string name="check">تحقق</string>
+
+    <string name="are_you_sure">هل أنت متأكد ؟</string>
+    <string name="no_internet_connection">لا يوجد إتصال بالإنترنت يرجى المحاوله لاحقاً</string>
+    <string name="no_internet_connection_2">لقد فقدت الإتصال بالإنترنت ... أعد الإتصال بالشبكه ولا تغلق التطبيق إذا كنت تريد الرجوع الى النافذه السابقه</string>
+
+    <string name="bad_internet_connection">إتصال سيئ بالإنترنت يرجى المحاوله لاحقاُ</string>
+    <string name="other_errors">حدث خطأ عند محاولة الإتصال بالخادم ...! يرجى المحاوله مره اخرى لاحقاً </string>
+
+    <string name="also_chang_image_check_box">تغيير الصوره ايضاً</string>
+    <string name="are_not_exist">غير موجوده</string>
+
+    <string name="internet_re_connected">تم إعادة الإتصال بالإنترنت</string>
+
+    <string name="not_defined">غير معرف ...!</string>
+
+
+</resources>
